@@ -60,3 +60,6 @@ git push -u -f origin main
 ```
 `-u/--set-upstream` sets push/pull for future actions
 `-f` overwrites everything in remote
+
+# Rename branch
+`git branch -m new-name`
