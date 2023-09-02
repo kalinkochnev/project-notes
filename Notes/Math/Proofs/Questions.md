@@ -1,0 +1,2 @@
+1. A [[Countable and Uncountable Sets#Countably infinite sets|countably infinite set]] is any set such that its elements can be listed. What constitutes being able to list them in finite time?
+2. Bijective functions are invertible right?
