@@ -37,14 +37,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Programming/Tools/Clang.md",
+                "file": "Notes/Math/Proofs/Lectures/Counting Subsets.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "173104527253204a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Math/Proofs/Lectures/Counting.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fc72cf61102c53c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Math/Proofs/Lectures/Addition and Subtraction Principle.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f7f43c87dbe69d99",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Math/Proofs/Lectures/Factorials and Permutations.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -73,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "opengl",
+                "query": "permut",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,11 +126,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 382.5
   },
   "right": {
     "id": "b5b9ba56968b115d",
@@ -110,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Programming/Tools/Clang.md",
+                "file": "Notes/Math/Proofs/Lectures/Addition and Subtraction Principle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Programming/Tools/Clang.md",
+                "file": "Notes/Math/Proofs/Lectures/Addition and Subtraction Principle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Programming/Tools/Clang.md"
+                "file": "Notes/Math/Proofs/Lectures/Addition and Subtraction Principle.md"
               }
             }
           }
@@ -175,10 +212,16 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "03cd2f3133bcc173",
+  "active": "fc72cf61102c53c5",
   "lastOpenFiles": [
-    "Notes/Programming/Tools/gcc.md",
+    "Notes/Math/Proofs/Exams/Exam 3 Prep.md",
+    "Notes/Math/Proofs/Lectures/Counting.md",
+    "Notes/Math/Proofs/Lectures/Counting Subsets.md",
+    "Projects/SLAMBike/Logs/9-1-23.md",
+    "Notes/Math/Proofs/Lectures/Factorials and Permutations.md",
     "Notes/Programming/Tools/Clang.md",
+    "Notes/Untitled",
+    "Notes/Programming/Tools/gcc.md",
     "Notes/Programming/Embedded/Arduino.md",
     "Notes/Programming/Tools/Git.md",
     "Projects/SLAMBike/Logs/8-10-23.md",
@@ -198,14 +241,9 @@
     "Projects/SLAMBike/Logs/5-31-23.md",
     "Projects/SLAMBike/Logs/5-30-23.md",
     "Projects/SLAMBike/Logs/5-29-23.md",
-    "Projects/SLAMBike/Logs/5-28-23.md",
-    "Projects/SLAMBike/Logs/5-27-23.md",
-    "Projects/SLAMBike/Logs/9-1-23.md",
     "Projects/SLAMBike/Logs/images/time constant.png",
-    "Notes/Programming/Languages/C++/Inclusion.md",
     "Pasted image 20230829211112.png",
     "Notes/Programming/Languages/C++",
-    "Notes/Programming/Tools/nvim.md",
     "Pasted image 20230814140735.png",
     "Pasted image 20230814140714.png",
     "Pasted image 20230814140648.png",
@@ -222,7 +260,6 @@
     "Projects/MakeHaven/tools",
     "Projects/MakeHaven",
     "Notes/MakeHaven/projects",
-    "Notes/MakeHaven/tools",
     "Projects/Distributed Quantum Computing/Code flow.canvas",
     "Projects/Distributed Quantum Computing/Untitled.canvas",
     "Projects/Makerspace/Institute for Engineering Success.canvas"
