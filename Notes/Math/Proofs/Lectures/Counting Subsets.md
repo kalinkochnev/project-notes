@@ -8,6 +8,7 @@
 
 ### example
 Let n=4 and $A=\{ a,b,c,d \}$
+
 | k   | k element subsets      | ${n \choose k}$ |
 | --- | ---------------------- | --------------- |
 | -1  | impossible             | 0               |

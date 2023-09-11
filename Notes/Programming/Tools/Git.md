@@ -51,15 +51,3 @@ git checkout -b myFeature dev
 `git checkout -b NEW_BRANCH_NAME COMMIT_ID
 
 # Create new repository from commit of other repository
-
-# Add remote repository
-```
-git remote add origin git@github.com:kalinkochnev/project-notes.git
-
-git push -u -f origin main
-```
-`-u/--set-upstream` sets push/pull for future actions
-`-f` overwrites everything in remote
-
-# Rename branch
-`git branch -m new-name`
