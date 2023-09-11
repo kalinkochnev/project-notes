@@ -1,5 +1,4 @@
-Symbol name | Latex | Symbol
--|- | -
+Symbol name | Latex | Symbol -|- | -
 Does not divide | \nmid | $\nmid$
 Infinity | \infty | $\infty$
 Not in | \notin | $\notin$

@@ -94,6 +94,7 @@ $$\begin{align}
 \end{align}
 $$
 2. Show it spans $V\otimes W$
+
 $$\begin{align}
 \left( \sum_{i}\alpha_{i}\ket{v_{i}} \right) \otimes \ket{w}=\sum\alpha_{i}\ket{v_{i}} \ket{w_{i}} \\
 =\sum_{i}\alpha_{i}\ket{v_{i}} \otimes \left( \sum_{j}\beta_{j}\ket{w_{j}}  \right) \\
