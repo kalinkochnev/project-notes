@@ -1,4 +1,4 @@
-x# Inner Product
+# Inner Product
 Most people are familiar with the dot product where you multiply pairs of vector components and add them togehter. This is only true for a real vector space.
 
 Inner product of real vectors
