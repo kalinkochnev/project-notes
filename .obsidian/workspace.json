@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Math/Proofs/Lectures/Addition and Subtraction Principle.md",
+                "file": "Notes/Math/Proofs/Lectures/Induction.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Math/Proofs/Lectures/Addition and Subtraction Principle.md",
+                "file": "Notes/Math/Proofs/Lectures/Induction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Math/Proofs/Lectures/Addition and Subtraction Principle.md",
+                "file": "Notes/Math/Proofs/Lectures/Induction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Math/Proofs/Lectures/Addition and Subtraction Principle.md"
+                "file": "Notes/Math/Proofs/Lectures/Induction.md"
               }
             }
           }
@@ -211,8 +211,10 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "e4bba0159106705c",
+  "active": "fc72cf61102c53c5",
   "lastOpenFiles": [
+    "Notes/Math/Proofs/Lectures/Strong Induction.md",
+    "Notes/Programming/Tools/nvim.md",
     "Projects/SLAMBike/Books/Reaction Wheel Pendulum.pdf",
     "Projects/SLAMBike/Books/Databook UW.pdf",
     "Projects/SLAMBike/Books/Advanced_Physics_Nick_Lucid_Jan_2023.pdf",
@@ -247,10 +249,8 @@
     "Projects/SLAMBike/Logs/6-18-23.md",
     "Projects/SLAMBike/Logs/6-15-23.md",
     "Projects/SLAMBike/Logs/6-13-23.md",
-    "Projects/SLAMBike/Logs/6-12-23.md",
     "Projects/SLAMBike/Logs/images/time constant.png",
     "Pasted image 20230829211112.png",
-    "Notes/Programming/Languages/C++",
     "Pasted image 20230814140735.png",
     "Pasted image 20230814140714.png",
     "Pasted image 20230814140648.png",
