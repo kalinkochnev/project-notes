@@ -78,9 +78,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "98724220653ea089",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -146,7 +154,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Programming/Tools/nvim.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +170,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Programming/Tools/nvim.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,9 +191,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Notes/Programming/Tools/nvim.md"
-              }
+              "state": {}
             }
           },
           {
@@ -221,12 +225,12 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "fc72cf61102c53c5",
+  "active": "98724220653ea089",
   "lastOpenFiles": [
+    "Notes/Programming/Tools/nvim.md",
     "Notes/Programming/Languages/Python/General.md",
     "Notes/Programming/Languages/Python/mypy.md",
     "Notes/Programming/Tools/Pyenv.md",
-    "Notes/Programming/Tools/nvim.md",
     "Notes/Math/Proofs/Lectures/Strong Induction.md",
     "Projects/SLAMBike/Books/Reaction Wheel Pendulum.pdf",
     "Projects/SLAMBike/Books/Databook UW.pdf",
