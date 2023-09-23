@@ -8,79 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e56ef7b8c7a82302",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Programming/Tools/nvim.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0e2fc43d76cf5d71",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/SLAMBike/Logs/9-1-23.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "03cd2f3133bcc173",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Math/Proofs/Lectures/Counting Subsets.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "173104527253204a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Math/Proofs/Lectures/Counting.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fc72cf61102c53c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Programming/Tools/nvim.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f7f43c87dbe69d99",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Math/Proofs/Lectures/Factorials and Permutations.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "98724220653ea089",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Programming/Tools/nvim.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8364ad4a79b9b24a",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -88,7 +28,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -225,9 +165,13 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "98724220653ea089",
+  "active": "8364ad4a79b9b24a",
   "lastOpenFiles": [
     "Notes/Programming/Tools/nvim.md",
+    "Notes/Math/Proofs/Lectures/Factorials and Permutations.md",
+    "Notes/Math/Proofs/Lectures/Counting.md",
+    "Notes/Math/Proofs/Lectures/Counting Subsets.md",
+    "Projects/SLAMBike/Logs/9-1-23.md",
     "Notes/Programming/Languages/Python/General.md",
     "Notes/Programming/Languages/Python/mypy.md",
     "Notes/Programming/Tools/Pyenv.md",
@@ -247,10 +191,6 @@
     "Notes/Math/Algorithms/Dynamic Programming versus recursion.md",
     "Notes/Math/Algorithms",
     "Notes/Math/Proofs/Exams/Exam 3 Prep.md",
-    "Notes/Math/Proofs/Lectures/Counting.md",
-    "Notes/Math/Proofs/Lectures/Counting Subsets.md",
-    "Projects/SLAMBike/Logs/9-1-23.md",
-    "Notes/Math/Proofs/Lectures/Factorials and Permutations.md",
     "Notes/Programming/Tools/Clang.md",
     "Notes/Untitled",
     "Notes/Programming/Tools/gcc.md",
