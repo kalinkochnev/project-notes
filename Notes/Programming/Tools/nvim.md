@@ -160,7 +160,7 @@ https://microsoft.github.io/language-server-protocol/implementors/servers/
 | `<C-Space>`    | insert | Invoke completion menu                 |
 | `< leader>vrn` | normal | rename                                 |
 | `< leader>vrr` | normal | references                             |
-| `<C-h>`        | normal | signature help                         |
+| `<C-h>`        | insert | signature help                         |
 | `< leader>vca` | normal | code action                            |
 | `[d`/`]d`      | normal | go to next/prev in diagnostic/warnings |
 | `K`            | normal | Hover/show docs                        |
