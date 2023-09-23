@@ -1,0 +1,6 @@
+- an exception can be any value
+- uses `throw` keyword
+- Flow transfer to the catch site
+- If there is no catch site, the OS kills the program
+- Stack gets unwinded/deallocated on throw
+-
