@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Programming/Languages/C++/Exceptions.md",
+                "file": "HW2 3500.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 382.5
+    "width": 200
   },
   "right": {
     "id": "b5b9ba56968b115d",
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Programming/Languages/C++/Exceptions.md",
+                "file": "HW2 3500.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Programming/Languages/C++/Exceptions.md",
+                "file": "HW2 3500.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Programming/Languages/C++/Exceptions.md"
+                "file": "HW2 3500.md"
               }
             }
           },
@@ -173,10 +173,17 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "8364ad4a79b9b24a",
+  "active": "e4bba0159106705c",
   "lastOpenFiles": [
-    "Notes/Programming/Languages/C++/References.md",
+    "Notes/Programming/Languages/C++/STL Containers.md",
+    "lshapechess.png",
+    "Notes/Programming/Languages/C++/C++.md",
+    "Notes/Control Systems/Textbook.md",
+    "Notes/Control Systems",
+    "Notes/Control Systems.md",
+    "HW2 3500.md",
     "Notes/Programming/Languages/C++/Exceptions.md",
+    "Notes/Programming/Languages/C++/References.md",
     "Notes/Programming/Languages/C++/Pointers.md",
     "Notes/Programming/Languages/C++/images/spiralrule.gif",
     "Notes/Programming/Languages/C++/images",
@@ -203,15 +210,8 @@
     "Notes/Math/Linear Algebra/Combined.md",
     "Notes/Math/Algorithms/HW1.md",
     "Notes/Math/Algorithms/Dynamic Programming versus recursion.md",
-    "Notes/Math/Algorithms",
     "Notes/Math/Proofs/Exams/Exam 3 Prep.md",
     "Notes/Programming/Tools/Clang.md",
-    "Notes/Programming/Tools/gcc.md",
-    "Notes/Programming/Embedded/Arduino.md",
-    "Notes/Programming/Tools/Git.md",
-    "Projects/SLAMBike/Logs/8-10-23.md",
-    "Projects/SLAMBike/Logs/6-28-23.md",
-    "Projects/SLAMBike/Logs/6-24-23.md",
     "Projects/SLAMBike/Logs/images/time constant.png",
     "Pasted image 20230829211112.png",
     "Pasted image 20230814140735.png",
@@ -220,7 +220,6 @@
     "Pasted image 20230814140637.png",
     "Pasted image 20230812111652.png",
     "Pasted image 20230812111636.png",
-    "Pasted image 20230810140527.png",
     "Projects/Distributed Quantum Computing/Code flow.canvas",
     "Projects/Distributed Quantum Computing/Untitled.canvas",
     "Projects/Makerspace/Institute for Engineering Success.canvas"
