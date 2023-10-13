@@ -1,7 +1,7 @@
 # Reading pointers
 - You can start by trying to read a declaration backwards
 ```c++
-const char* blah; // blah is a pointer to to a char that i constant
+const char* blah; // blah is a pointer to to a char that is constant
 char* const blah; // blah is a constant pointer to a char
 ```
 
