@@ -146,6 +146,13 @@ Example:
 to
 `use({'nvim-treesitter/nvim-treesitter', { run = ':TSUpdate '})`
 
+# Macros
+Start recording macro in register a `qa`
+End macro recording `q`
+Execute macro in register a `@a`
+Repeat last macro `@@`
+Repeat macro in register a, n times `n@a`
+
 # Miscellaneous
 ## Language server list
 https://microsoft.github.io/language-server-protocol/implementors/servers/

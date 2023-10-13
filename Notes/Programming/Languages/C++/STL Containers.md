@@ -16,8 +16,3 @@
 	- can write into item at current index with `*`
 - `vector.end()` points one index past the last element
 
-# Templates
-```c++
-template <class Container>
-void rprint(Container& c) { /*body here*/ }
-```
