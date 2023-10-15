@@ -4,35 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "bbd3b21589443093",
+        "id": "1dd1715de35250d9",
         "type": "tabs",
         "children": [
           {
-            "id": "98724220653ea089",
+            "id": "fa7e125780756e6a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Programming/Tools/nvim.md",
+                "file": "Notes/Programming/Languages/C++/Pointers.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "8364ad4a79b9b24a",
+            "id": "6196aaf95aec6f91",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HW2 3500.md",
+                "file": "Notes/Programming/Languages/C++/Classes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c75638eac9f1a5b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Programming/Languages/C++/Polymorphic Code.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -61,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "permut",
+                "query": "override",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,11 +90,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 257.5
   },
   "right": {
     "id": "b5b9ba56968b115d",
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HW2 3500.md",
+                "file": "Notes/Programming/Languages/C++/Polymorphic Code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HW2 3500.md",
+                "file": "Notes/Programming/Languages/C++/Polymorphic Code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HW2 3500.md"
+                "file": "Notes/Programming/Languages/C++/Polymorphic Code.md"
               }
             }
           },
@@ -152,7 +165,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -161,65 +175,63 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "publish:Publish changes...": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-advanced-slides:Show Slide Preview": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "e4bba0159106705c",
+  "active": "c75638eac9f1a5b9",
   "lastOpenFiles": [
-    "Notes/Programming/Languages/C++/STL Containers.md",
-    "lshapechess.png",
-    "Notes/Programming/Languages/C++/C++.md",
-    "Notes/Control Systems/Textbook.md",
-    "Notes/Control Systems",
-    "Notes/Control Systems.md",
-    "HW2 3500.md",
-    "Notes/Programming/Languages/C++/Exceptions.md",
-    "Notes/Programming/Languages/C++/References.md",
+    "Notes/Programming/Languages/C++/Classes.md",
+    "Notes/Programming/Languages/C++/Polymorphic Code.md",
+    "Notes/Programming/Languages/C++/Object Oriented Programming.md",
+    "Notes/Programming/Languages/C++/Methods and Operators.md",
     "Notes/Programming/Languages/C++/Pointers.md",
-    "Notes/Programming/Languages/C++/images/spiralrule.gif",
-    "Notes/Programming/Languages/C++/images",
-    "Notes/Programming/Languages/C++/Inclusion.md",
+    "Notes/Programming/Languages/C++/Untitled.md",
+    "Notes/Programming/Languages/C++/Constructors.md",
+    "Notes/Programming/Languages/C++/STL Containers.md",
+    "Notes/Resources.md",
+    "Notes/Quantum Computing/Density Operators.md",
+    "Notes/Quantum Computing/images/Quantum Gates.png",
+    "Notes/Math/Proofs/Lectures/Equivalence Classes and Partitions.md",
     "Notes/Programming/Tools/nvim.md",
-    "Notes/Math/Proofs/Lectures/Factorials and Permutations.md",
-    "Notes/Math/Proofs/Lectures/Counting.md",
-    "Notes/Math/Proofs/Lectures/Counting Subsets.md",
-    "Projects/SLAMBike/Logs/9-1-23.md",
-    "Notes/Programming/Languages/Python/General.md",
-    "Notes/Programming/Languages/Python/mypy.md",
     "Notes/Programming/Tools/Pyenv.md",
-    "Notes/Math/Proofs/Lectures/Strong Induction.md",
+    "Notes/Programming/Tools/Clang.md",
+    "Notes/Programming/Tools/gcc.md",
+    "Notes/Programming/Languages/C++/Inclusion.md",
+    "Notes/Programming/Languages/C++/Exceptions.md",
+    "Notes/Programming/Languages/C++/Containers.md",
+    "Notes/Programming/Languages/C++/C++.md",
+    "Notes/Programming/Languages/C++/Adapters.md",
+    "Notes/Programming/Languages/C++/images/Pasted image 20230829211112.png",
+    "Notes/Programming/Languages/C++/Templates.md",
+    "Untitled.md",
+    "Notes/Programming/Languages/C++/Practice exam.md",
+    "Notes/Programming/Languages/C++/References.md",
+    "Notes/Programming/Languages/C++/Iterators.md",
+    "Excalidraw/Drawing 2023-07-08 17.05.12.excalidraw.md",
+    "Projects/Job Scraper/images/Pasted image 20230814140735.png",
+    "Projects/Job Scraper/images/Pasted image 20230814140637.png",
+    "Projects/Job Scraper/images/Pasted image 20230814140714.png",
+    "Projects/Job Scraper/images",
+    "Projects/Job Scraper/images/Pasted image 20230814140648.png",
+    "Projects/SLAMBike/Logs/images/Pasted image 20230810140527.png",
+    "Projects/Learn WebGPU/images/Pasted image 20230724155648.png",
+    "Projects/SLAMBike/Logs/images/Pasted image 20230812111636.png",
+    "Projects/Learn WebGPU/images/Pasted image 20230724154203.png",
+    "Notes/Control Systems",
+    "Notes/Programming/Languages/C++/images",
     "Projects/SLAMBike/Books/Reaction Wheel Pendulum.pdf",
     "Projects/SLAMBike/Books/Databook UW.pdf",
     "Projects/SLAMBike/Books/Advanced_Physics_Nick_Lucid_Jan_2023.pdf",
     "Notes/Quantum Computing/Final/stationary states.xcf",
     "Notes/Quantum Computing/Exam/midterm.pdf",
-    "Notes/Quantum Computing/Combined.md",
     "Notes/Programming/Embedded/AVR Programming.pdf",
     "Notes/Mechanical Design/Shigleys_2015_Mechanical_Engineering_Des.pdf",
-    "Notes/Math/Proofs/Exams/Exam3Review.pdf",
-    "Notes/Math/Linear Algebra/Properties of complex numbers.md",
-    "Notes/Math/Linear Algebra/Combined.md",
-    "Notes/Math/Algorithms/HW1.md",
-    "Notes/Math/Algorithms/Dynamic Programming versus recursion.md",
-    "Notes/Math/Proofs/Exams/Exam 3 Prep.md",
-    "Notes/Programming/Tools/Clang.md",
-    "Projects/SLAMBike/Logs/images/time constant.png",
-    "Pasted image 20230829211112.png",
-    "Pasted image 20230814140735.png",
-    "Pasted image 20230814140714.png",
-    "Pasted image 20230814140648.png",
-    "Pasted image 20230814140637.png",
-    "Pasted image 20230812111652.png",
-    "Pasted image 20230812111636.png",
     "Projects/Distributed Quantum Computing/Code flow.canvas",
     "Projects/Distributed Quantum Computing/Untitled.canvas",
     "Projects/Makerspace/Institute for Engineering Success.canvas"
