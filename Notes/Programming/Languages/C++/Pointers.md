@@ -45,3 +45,15 @@ int * p = const_cast<int *>(&x);
 #### `dynamic_cast<T>(e)`
 - Allows downcasting of compatible types at run time
 - returns null if the cast failed
+
+
+# Smart Pointers
+https://learn.microsoft.com/en-us/cpp/cpp/smart-pointers-modern-cpp?view=msvc-170
+- Use when allocating on the heap.
+- When a smart pointer is initialized, it is an object created on the stack that points to some value on the heap
+- When the object goes out of scope, since on stack, destructor gets automatically called and destroys the SP and frees memory properly
+- Methods of smart pointer called using `.()` syntax. Methods of object pointed to are called via `->()` syntax
+
+### Types of smart pointers
+`std::unique_ptr<>` - a pointer to an object that is not copied or shared but can be moved. One owner only
+`std::shared_ptr<>` - reference counted pointer that can be shared across multiple objects. Memory is valid as long as there is at least one owner.
