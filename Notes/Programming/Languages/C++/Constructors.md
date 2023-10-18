@@ -130,3 +130,11 @@ Student& operator=(const Student &&s) {
 ```
 - Sometimes you do not know what you are deleting due to polymorphism
 
+# Preventing auto-generated constructors
+```c++
+struct NoCopy {
+	NoCopy() { // .. stuff }
+	// tells compiler not to generate copy constructor
+	NoCopy(const NoCopy& other) = delete; 
+}
+```

@@ -1,4 +1,4 @@
-- The goal is to optimize a mapping that takes functions as inputs and outputs real numbers so that you find minimum/maximum of this mapping
+God- The goal is to optimize a mapping that takes functions as inputs and outputs real numbers so that you find minimum/maximum of this mapping
 - **Main idea:** for a given function consider how variations of that function (basically a family of functions) affect the output. By adding constraints you can find the optimal solution. 
 - Examples: curve of shortest length connecting two points (brachistrochrone), maximizing area enclosed by curve
 [[Lagrangian Mechanics#Principle of least action]]
