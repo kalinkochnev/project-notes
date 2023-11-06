@@ -4,7 +4,6 @@ Menche
 
 # Characters
 ## Egg
-- 
 - "egg shock" - Kinder egg power up move, get's wrapped in foil, chocolate breaks away and in the yellow container there's a weapon
 - Egg tilts in air and smashes into the ground (% chance you break instead)
 - "egg roll" - egg rolls to other side of stage
@@ -21,7 +20,7 @@ Menche
 Martenizi - Pizho and Penda
 - Like the ice climber people 
 - two characters controlled by one person connected by s
-- "slingshot" - you can get load something onto
+- "slingshot" - you can load something onto
 - "tie up" - if the person is inbetween the two martenizi they can spin around and tie them up temporarily
 - "up special" - gets picked up by a pigeon if they are falling off the arena
 - If falling off the area the other gets pulled down. The other character can pull you up.
