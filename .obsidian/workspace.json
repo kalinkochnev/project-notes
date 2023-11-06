@@ -4,19 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "5215c91f8e193c98",
+        "id": "01e7f376388b3153",
         "type": "tabs",
         "children": [
           {
-            "id": "4a3c3d6f00407593",
+            "id": "e0ade9dc7550ecb1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Notes/Programming/Languages/C++/Midterm Study Guide.md",
-                "mode": "source",
-                "source": false
+                "file": "Notes/Programming/Design/images/proxy.png"
               }
+            }
+          },
+          {
+            "id": "f04549bdc130aa7c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -48,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "\"-G\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Programming/Languages/C++/Midterm Study Guide.md",
+                "file": "Notes/Programming/Design/images/proxy.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Programming/Languages/C++/Midterm Study Guide.md",
+                "file": "Notes/Programming/Design/images/proxy.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Programming/Languages/C++/Midterm Study Guide.md"
+                "file": "Notes/Programming/Design/images/proxy.png"
               }
             }
           },
@@ -139,13 +145,11 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -158,45 +162,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4a3c3d6f00407593",
+  "active": "e4bba0159106705c",
   "lastOpenFiles": [
-    "Notes/Programming/Languages/C++/Untitled.md",
-    "Notes/Programming/Languages/C++/Pointers.md",
-    "Notes/Programming/Languages/C++/Classes.md",
-    "Notes/Programming/Languages/C++/Midterm Study Guide.md",
+    "Notes/Programming/Design/Structural Patterns.md",
+    "Notes/Programming/Design/images/Pasted image 20231106160856.png",
+    "Notes/Programming/Design/images/proxy.png",
+    "Untitled.md",
+    "Notes/Programming/Design/Creational Design Pattern.md",
+    "Notes/Programming/Design/images",
+    "Notes/Programming/Design/images/bad builder ex 2.png",
+    "Notes/Programming/Design/images/abstract factory ex.png",
+    "Notes/Programming/Design/images/multipleinheritance.png",
+    "Notes/Programming/Design/images/document editor ex.png",
+    "Notes/Programming/Design/images/maze example.png",
+    "Notes/Programming/Design/images/bridge solution.png",
+    "Notes/Programming/Design/images/bridge problem.png",
+    "Notes/Programming/Design/images/composite solution.png",
+    "Notes/Programming/Design",
+    "Notes/Programming/Tools/gcc.md",
+    "Notes/Programming/Languages/C++/C++.md",
     "Notes/Programming/Languages/C++/Constructors.md",
-    "Notes/Programming/Languages/C++/Iterators.md",
-    "Notes/Programming/Languages/C++/References.md",
-    "Notes/Programming/Languages/C++/Polymorphic Code.md",
+    "Notes/Programming/Tools/nvim.md",
+    "Notes/Programming/Languages/C++/Multiple Inheritance.md",
+    "Projects/Eigenvalue Quantum.md",
+    "Projects/Distributed Quantum Computing/presentations/reading group 7-20-23/Reading Group Presentation.md",
     "Notes/Programming/Languages/C++/Object Oriented Programming.md",
     "Notes/Programming/Languages/C++/Methods and Operators.md",
-    "Notes/Programming/Languages/C++/STL Containers.md",
-    "Notes/Resources.md",
-    "Notes/Quantum Computing/Density Operators.md",
-    "Notes/Quantum Computing/images/Quantum Gates.png",
-    "Notes/Math/Proofs/Lectures/Equivalence Classes and Partitions.md",
-    "Notes/Programming/Tools/nvim.md",
-    "Notes/Programming/Tools/Pyenv.md",
-    "Notes/Programming/Tools/Clang.md",
-    "Notes/Programming/Tools/gcc.md",
+    "Notes/Programming/Languages/C++/Iterators.md",
     "Notes/Programming/Languages/C++/Inclusion.md",
     "Notes/Programming/Languages/C++/Exceptions.md",
+    "Notes/Programming/Languages/C++/Delegation.md",
     "Notes/Programming/Languages/C++/Containers.md",
-    "Notes/Programming/Languages/C++/C++.md",
-    "Notes/Programming/Languages/C++/Adapters.md",
-    "Notes/Programming/Languages/C++/images/Pasted image 20230829211112.png",
+    "Notes/Programming/Languages/C++/Classes.md",
+    "Notes/Programming/Languages/C++/STL Containers.md",
     "Notes/Programming/Languages/C++/Templates.md",
-    "Untitled.md",
+    "Notes/Programming/Languages/C++/References.md",
+    "Projects/Demon Hunter/Ideas.md",
+    "Notes/Programming/Languages/C++/Adapters.md",
+    "Notes/Programming/Languages/C++/Untitled.md",
     "Notes/Programming/Languages/C++/Practice exam.md",
-    "Projects/Job Scraper/images/Pasted image 20230814140735.png",
-    "Projects/Job Scraper/images/Pasted image 20230814140637.png",
-    "Projects/Job Scraper/images/Pasted image 20230814140714.png",
     "Projects/Job Scraper/images",
-    "Projects/Job Scraper/images/Pasted image 20230814140648.png",
-    "Projects/SLAMBike/Logs/images/Pasted image 20230810140527.png",
-    "Projects/Learn WebGPU/images/Pasted image 20230724155648.png",
-    "Projects/SLAMBike/Logs/images/Pasted image 20230812111636.png",
-    "Projects/Learn WebGPU/images/Pasted image 20230724154203.png",
     "Notes/Control Systems",
     "Notes/Programming/Languages/C++/images",
     "Projects/SLAMBike/Books/Reaction Wheel Pendulum.pdf",
@@ -204,8 +209,6 @@
     "Projects/SLAMBike/Books/Advanced_Physics_Nick_Lucid_Jan_2023.pdf",
     "Notes/Quantum Computing/Final/stationary states.xcf",
     "Notes/Quantum Computing/Exam/midterm.pdf",
-    "Notes/Programming/Embedded/AVR Programming.pdf",
-    "Notes/Mechanical Design/Shigleys_2015_Mechanical_Engineering_Des.pdf",
     "Projects/Distributed Quantum Computing/Code flow.canvas",
     "Projects/Distributed Quantum Computing/Untitled.canvas",
     "Projects/Makerspace/Institute for Engineering Success.canvas"
