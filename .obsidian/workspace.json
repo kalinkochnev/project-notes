@@ -4,25 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "01e7f376388b3153",
+        "id": "8aefecf9bde1b906",
         "type": "tabs",
         "children": [
           {
-            "id": "e0ade9dc7550ecb1",
+            "id": "743dc9f3b3f81324",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Notes/Programming/Design/images/proxy.png"
+                "file": "Notes/Programming/Tools/Kitty terminal.md",
+                "mode": "source",
+                "source": false
               }
-            }
-          },
-          {
-            "id": "f04549bdc130aa7c",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
         ]
@@ -54,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"-G\"",
+                "query": "casting",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 209.5
   },
   "right": {
     "id": "b5b9ba56968b115d",
@@ -91,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Programming/Design/images/proxy.png",
+                "file": "Notes/Programming/Tools/Kitty terminal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Programming/Design/images/proxy.png",
+                "file": "Notes/Programming/Tools/Kitty terminal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Programming/Design/images/proxy.png"
+                "file": "Notes/Programming/Tools/Kitty terminal.md"
               }
             }
           },
@@ -149,58 +143,61 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "publish:Publish changes...": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "publish:Publish changes...": false
     }
   },
-  "active": "e4bba0159106705c",
+  "active": "743dc9f3b3f81324",
   "lastOpenFiles": [
+    "Notes/Programming/OS/Linux.md",
+    "Notes/Programming/Tools/nvim.md",
+    "Notes/Programming/Languages/C++/Pointers.md",
+    "Notes/Programming/Languages/C++/Methods and Operators.md",
+    "Notes/Programming/Languages/Python/Manim.md",
+    "Notes/Math/Algorithms/HW1.md",
+    "Notes/DSP/2.1 Signal Ambiguity.md",
+    "Notes/Programming/Languages/C++/Constructors.md",
+    "Notes/Math/Calculus of Variations.md",
+    "Projects/SLAMBike/Logs/6-15-23.md",
+    "Notes/Electrical Design/Cheat Sheets.md",
+    "Notes/Programming/OS/Grep.md",
+    "Notes/Programming/Design/images/bridge uml.png",
+    "Projects/resonant/logs/11-11-23.md",
     "Notes/Programming/Design/Structural Patterns.md",
-    "Notes/Programming/Design/images/Pasted image 20231106160856.png",
-    "Notes/Programming/Design/images/proxy.png",
-    "Untitled.md",
     "Notes/Programming/Design/Creational Design Pattern.md",
-    "Notes/Programming/Design/images",
-    "Notes/Programming/Design/images/bad builder ex 2.png",
-    "Notes/Programming/Design/images/abstract factory ex.png",
-    "Notes/Programming/Design/images/multipleinheritance.png",
+    "Notes/Programming/Design/images/abstract factory.png",
     "Notes/Programming/Design/images/document editor ex.png",
-    "Notes/Programming/Design/images/maze example.png",
-    "Notes/Programming/Design/images/bridge solution.png",
-    "Notes/Programming/Design/images/bridge problem.png",
-    "Notes/Programming/Design/images/composite solution.png",
+    "Notes/Programming/Design/Behavioral Patterns.md",
+    "Notes/Programming/Design/images/Strategy.png",
+    "Notes/Programming/Design/images/Publisher.png",
+    "Notes/Programming/Design/images/State.png",
+    "Notes/Programming/Design/images/Command.png",
+    "respeakeraudiotest.png",
+    "ifconfig.png",
+    "Pasted image 20231112000323.png",
+    "Projects/portfolio/market research.md",
+    "Notes/Programming/Frameworks/hugo.md",
+    "Projects/resonant/Raspberry Pi Setup.md",
+    "Projects/resonant/resonant.md",
+    "Projects/resonant/logs",
+    "Projects/resonant/Localization methods.md",
+    "Projects/resonant/Audio Streaming.md",
+    "Notes/Math/Proofs/Lectures/Functions.md",
+    "Notes/Math/Proofs/Lectures/Inverse Functions.md",
+    "Untitled.md",
+    "Notes/Programming/Design/images",
     "Notes/Programming/Design",
     "Notes/Programming/Tools/gcc.md",
-    "Notes/Programming/Languages/C++/C++.md",
-    "Notes/Programming/Languages/C++/Constructors.md",
-    "Notes/Programming/Tools/nvim.md",
-    "Notes/Programming/Languages/C++/Multiple Inheritance.md",
-    "Projects/Eigenvalue Quantum.md",
-    "Projects/Distributed Quantum Computing/presentations/reading group 7-20-23/Reading Group Presentation.md",
-    "Notes/Programming/Languages/C++/Object Oriented Programming.md",
-    "Notes/Programming/Languages/C++/Methods and Operators.md",
-    "Notes/Programming/Languages/C++/Iterators.md",
-    "Notes/Programming/Languages/C++/Inclusion.md",
-    "Notes/Programming/Languages/C++/Exceptions.md",
-    "Notes/Programming/Languages/C++/Delegation.md",
-    "Notes/Programming/Languages/C++/Containers.md",
-    "Notes/Programming/Languages/C++/Classes.md",
-    "Notes/Programming/Languages/C++/STL Containers.md",
-    "Notes/Programming/Languages/C++/Templates.md",
-    "Notes/Programming/Languages/C++/References.md",
-    "Projects/Demon Hunter/Ideas.md",
-    "Notes/Programming/Languages/C++/Adapters.md",
-    "Notes/Programming/Languages/C++/Untitled.md",
-    "Notes/Programming/Languages/C++/Practice exam.md",
     "Projects/Job Scraper/images",
     "Notes/Control Systems",
     "Notes/Programming/Languages/C++/images",
@@ -208,7 +205,6 @@
     "Projects/SLAMBike/Books/Databook UW.pdf",
     "Projects/SLAMBike/Books/Advanced_Physics_Nick_Lucid_Jan_2023.pdf",
     "Notes/Quantum Computing/Final/stationary states.xcf",
-    "Notes/Quantum Computing/Exam/midterm.pdf",
     "Projects/Distributed Quantum Computing/Code flow.canvas",
     "Projects/Distributed Quantum Computing/Untitled.canvas",
     "Projects/Makerspace/Institute for Engineering Success.canvas"
