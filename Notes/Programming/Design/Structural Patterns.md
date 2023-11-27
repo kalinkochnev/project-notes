@@ -18,7 +18,7 @@ ex: a `Box` can hold several `Products` and/or smaller boxes
 ### solution
 ![[bridge solution.png]]
 
-![[Pasted image 20231106160856.png]]
+![[bridge uml.png]]
 - `Abstraction` provides high level control logic. `Implementation` declares interfaces that are common to all implementation
 
 # Proxy
