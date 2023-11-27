@@ -52,11 +52,7 @@ Singleton * Singleton::Instace() {
 	- ex designing an application for different operating systems
 - The factory defines the interface to be implemented by subclasses which allows swapping out the factory implementation
 - Is an example of composition
-
-![[abstract factory ex.png]]
-- You override WidgetFactory for different operating systems (Motif or PM) which implement common functionality
-- The implementation for widgets can be swapped used by the Client 
-
+![[abstract factory.png]]
 # Builder
 - Lets you produce different types and representations of an object using the same construction code
 - You might want to have lots of customization for an obj but don't want a 1000 subclasses or parameters

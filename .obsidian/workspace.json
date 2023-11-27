@@ -120,18 +120,9 @@
               "type": "outline",
               "state": {}
             }
-          },
-          {
-            "id": "c6750bbaf35d6bba",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency"
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -150,20 +141,25 @@
   },
   "active": "4db93d1d5d5a49d8",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "respeakeraudiotest.png",
+    "ifconfig.png",
+    "Projects/resonant/logs/11-11-23.md",
+    "Projects/resonant/logs",
+    "Notes/Programming/OS/Grep.md",
+    "Notes/Programming/Design/images/bridge uml.png",
+    "Notes/Programming/Design/images/abstract factory.png",
+    "Notes/Programming/Design/images/Strategy.png",
+    "Notes/Programming/Design/images/State.png",
+    "Notes/Programming/Design/images/Publisher.png",
+    "Notes/Programming/Design/images/Handler.png",
+    "Notes/Programming/Design/images/Command.png",
+    "Notes/Programming/Design/Behavioral Patterns.md",
     "Notes/Programming/Design/images/proxy.png",
     "Notes/Programming/Design/Structural Patterns.md",
-    "Notes/Programming/Design/images/Pasted image 20231106160856.png",
     "Untitled.md",
     "Notes/Programming/Design/Creational Design Pattern.md",
     "Notes/Programming/Design/images",
-    "Notes/Programming/Design/images/bad builder ex 2.png",
-    "Notes/Programming/Design/images/abstract factory ex.png",
-    "Notes/Programming/Design/images/multipleinheritance.png",
-    "Notes/Programming/Design/images/document editor ex.png",
-    "Notes/Programming/Design/images/maze example.png",
-    "Notes/Programming/Design/images/bridge solution.png",
-    "Notes/Programming/Design/images/bridge problem.png",
-    "Notes/Programming/Design/images/composite solution.png",
     "Notes/Programming/Design",
     "Notes/Programming/Tools/gcc.md",
     "Notes/Programming/Languages/C++/C++.md",
@@ -184,9 +180,6 @@
     "Notes/Programming/Languages/C++/Templates.md",
     "Notes/Programming/Languages/C++/References.md",
     "Projects/Demon Hunter/Ideas.md",
-    "Notes/Programming/Languages/C++/Adapters.md",
-    "Notes/Programming/Languages/C++/Untitled.md",
-    "Notes/Programming/Languages/C++/Practice exam.md",
     "Projects/Job Scraper/images",
     "Notes/Control Systems",
     "Notes/Programming/Languages/C++/images",
@@ -194,7 +187,6 @@
     "Projects/SLAMBike/Books/Databook UW.pdf",
     "Projects/SLAMBike/Books/Advanced_Physics_Nick_Lucid_Jan_2023.pdf",
     "Notes/Quantum Computing/Final/stationary states.xcf",
-    "Notes/Quantum Computing/Exam/midterm.pdf",
     "Projects/Distributed Quantum Computing/Code flow.canvas",
     "Projects/Distributed Quantum Computing/Untitled.canvas",
     "Projects/Makerspace/Institute for Engineering Success.canvas"

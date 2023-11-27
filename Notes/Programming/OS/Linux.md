@@ -92,3 +92,21 @@ Install the pop-os nvidia drivers
 sudo apt install system76-driver-nvidia
 ```
 https://support.system76.com/articles/install-pop/
+
+# App Image Installation
+https://askubuntu.com/a/1428457
+1. Create a .desktop file with the following contents
+```
+[Desktop Entry]
+Name=Fancy App
+Comment=Does this and that
+Exec=/home/username/path/to/the/fancy_app.appimage
+Icon=/home/username/path/to/the/app-logo.png
+Terminal=false
+Type=Application
+Categories=Something;
+Keywords=something;more;
+```
+2. Store the .desktop file under `/home/username/.local/share/applications/`
+3. Create a new folder under the home directory called `Applications/` and move the `.AppImage` file there
+4. The Icon can be stored under `/home/username/.local/share/icons/hicolor/` and find the appropriate directory based on image size (svgs are supported)

@@ -199,8 +199,12 @@ https://microsoft.github.io/language-server-protocol/implementors/servers/
 `\0` - first capture group (or entire line if a selection)
 `\1 \2 \3 ...` - other capture groups
 `&` when replacing represents the selection found so you can append/prepend
+<<<<<<< HEAD
 `\r` is a carriage return
 
+=======
+`\r` - insert newline
+>>>>>>> origin/main
 ## Replace markdown images with
 Regex to find `![[ link.png ]]` is `!\[\[([^\]]*)\]\]`
 `:%s/\v!\[\[([^\]]*)\]\]/{{<figure src="\1" alt="">}}/g`
