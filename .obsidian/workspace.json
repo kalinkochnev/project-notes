@@ -4,21 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "01e7f376388b3153",
+        "id": "db88a52ed30a660d",
         "type": "tabs",
         "children": [
           {
-            "id": "e0ade9dc7550ecb1",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Notes/Programming/Design/images/proxy.png"
-              }
-            }
-          },
-          {
-            "id": "f04549bdc130aa7c",
+            "id": "4db93d1d5d5a49d8",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -91,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Programming/Design/images/proxy.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Programming/Design/images/proxy.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Notes/Programming/Design/images/proxy.png"
-              }
+              "state": {}
             }
           },
           {
@@ -162,11 +148,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e4bba0159106705c",
+  "active": "4db93d1d5d5a49d8",
   "lastOpenFiles": [
+    "Notes/Programming/Design/images/proxy.png",
     "Notes/Programming/Design/Structural Patterns.md",
     "Notes/Programming/Design/images/Pasted image 20231106160856.png",
-    "Notes/Programming/Design/images/proxy.png",
     "Untitled.md",
     "Notes/Programming/Design/Creational Design Pattern.md",
     "Notes/Programming/Design/images",
