@@ -53,4 +53,35 @@ bool foundIt = find(x, 2.0, std::function<int(double, double)>([] (double a, dou
 }))
 ```
 
-# Partials
+# Bind
+- You can "fix" a parameter for a function. 
+- Ex: if `f(a, b, c)`, we can write `g(a, b) = f(a, 4, b)` by doing
+```c++
+auto g = bind(f, _1, 4, _2);
+```
+
+## bind by value
+- occurs by default
+- it is essentially doing this
+```c++
+auto mybind(const std::function<int(double, double> &f, double b) {
+	// captures and fices f and b, from mybind
+	// returned function only takes one param
+	return [f, b](double a) {
+		return f(a, b);
+	};
+}
+```
+
+## bind by reference
+- Must specify explicitly
+```
+std::ref - ask for capture by reference of type T
+std::cref - ask for capture by reference of type const T
+```
+
+ex:
+```c++
+int n1 = 1, n2 = 2, n3 = 3;
+std::function<void()> bound_f = std::bind(f, n1, ref(n2), cref(n3))
+```
