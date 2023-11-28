@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8aefecf9bde1b906",
+        "id": "dac5ff8fe2604aba",
         "type": "tabs",
         "children": [
           {
-            "id": "743dc9f3b3f81324",
+            "id": "fae6995b3770ce8d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Programming/Tools/Kitty terminal.md",
+                "file": "Notes/Programming/Languages/C++/Lambdas.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Programming/Tools/Kitty terminal.md",
+                "file": "Notes/Programming/Languages/C++/Lambdas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Programming/Tools/Kitty terminal.md",
+                "file": "Notes/Programming/Languages/C++/Lambdas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Programming/Tools/Kitty terminal.md"
+                "file": "Notes/Programming/Languages/C++/Lambdas.md"
               }
             }
           },
@@ -157,10 +157,13 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "743dc9f3b3f81324",
+  "active": "fae6995b3770ce8d",
   "lastOpenFiles": [
+    "Notes/Programming/Languages/C++/Lambdas.md",
     "Notes/Programming/OS/Linux.md",
+    "Projects/Makerspace/Meeting Agenda 11-25-23.md",
     "Notes/Programming/Tools/nvim.md",
+    "Notes/Programming/Tools/Kitty terminal.md",
     "Notes/Programming/Languages/C++/Pointers.md",
     "Notes/Programming/Languages/C++/Methods and Operators.md",
     "Notes/Programming/Languages/Python/Manim.md",
@@ -193,11 +196,8 @@
     "Projects/resonant/Localization methods.md",
     "Projects/resonant/Audio Streaming.md",
     "Notes/Math/Proofs/Lectures/Functions.md",
-    "Notes/Math/Proofs/Lectures/Inverse Functions.md",
-    "Untitled.md",
     "Notes/Programming/Design/images",
     "Notes/Programming/Design",
-    "Notes/Programming/Tools/gcc.md",
     "Projects/Job Scraper/images",
     "Notes/Control Systems",
     "Notes/Programming/Languages/C++/images",
