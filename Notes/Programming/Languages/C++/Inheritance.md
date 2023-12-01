@@ -17,7 +17,7 @@ Point p1(42, 42);
 
 ### Subsumption
 Let $A, B$ be types. If A is a subtype of B $A \subseteq B$, whenever a B is expected, an A can be provided
-- In C++, in order to use subsumption, you must expose the inherritance as public
+- In C++, in order to use subsumption, you must expose the inheritance as public
 ```c++
 class Mammal {}
 // if public is not included here, then code is inherited
