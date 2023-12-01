@@ -1,5 +1,5 @@
 [[Classes]]
-[[Object Oriented Programming]]
+[[Inheritance]]
 - Static binding call correct methods based on type (function takes pointer of that type)
 ```c++
 C_getA(X* this) -> int
