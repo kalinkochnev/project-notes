@@ -1,5 +1,5 @@
 - Combines state (protected by visibility) and behavior (contract through methods)
-- Method overloading is when multiple methods with same name but different parameters
+- Method overloading is when multiple methods with same name but different parameters ^6f1a56
 - Methods overriding is when you supercede an implementation with a different one (let's say a subclass overrides the parent implementation )
 - Types: Default, Custom, Move, Copy
 
