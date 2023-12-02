@@ -39,12 +39,13 @@ Public inheritance (not default)
 Protected inheritance: 
 - Protected in general means that subclasses can use the method but outside ones cannot
 - In the context of inheritance
-	- Anything that was public becomes protected.
-	- Anything protected becomes private
+	- Anything that was public becomes protected
+	- protected remains protected
 - If `class A : protected B`, means that subclasses of A are aware they inherit from B but nobody else knows
 
 Private inheritance:
-- Everything becomes private. `class A : private B` means only A knows about the inheritance
+-  `class A : private B` means only A knows about the inheritance
+- Public and protected members of base are private in the derived class
 
 # Dynamic binding
 - Using `virtual` in front of a method allows responding to messages based on dynamic type rather than compile time type (runtime polymorphism)

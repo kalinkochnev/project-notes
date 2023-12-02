@@ -175,13 +175,16 @@ https://microsoft.github.io/language-server-protocol/implementors/servers/
 
 # Git
 
-| Keybind     | Mode   | Actjion                   |
-| ----------- | ------ | ------------------------ |
-| `=`         | menu   | See the diff of the file |
-| `a`         | menu   | stage file               |
-| `cc`        | menu   | create a new commit      |
-| `r`         | menu   | refresh                  |
-| `:Git push` | normal | push the commits                         |
+| Keybind     | Mode   | Actjion                              |
+| ----------- | ------ | ------------------------------------ |
+| `=`         | menu   | See the diff of the file             |
+| `a`         | menu   | stage file                           |
+| `cc`        | menu   | create a new commit                  |
+| `r`         | menu   | refresh                              |
+| `:Git push` | normal | push the commits                     |
+| `X`         | normal | discards the change/file             |
+| `gI`        | normal | adds file under cursor to git ignore |
+| :            |        |                                      |
 
 # Search and replace
 
@@ -196,7 +199,12 @@ https://microsoft.github.io/language-server-protocol/implementors/servers/
 `\0` - first capture group (or entire line if a selection)
 `\1 \2 \3 ...` - other capture groups
 `&` when replacing represents the selection found so you can append/prepend
+<<<<<<< HEAD
+`\r` is a carriage return
+
+=======
 `\r` - insert newline
+>>>>>>> origin/main
 ## Replace markdown images with
 Regex to find `![[ link.png ]]` is `!\[\[([^\]]*)\]\]`
 `:%s/\v!\[\[([^\]]*)\]\]/{{<figure src="\1" alt="">}}/g`
