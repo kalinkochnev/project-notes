@@ -125,8 +125,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -220,11 +219,24 @@
   },
   "active": "9c6d93387facb6fd",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Notes/Programming/Languages/C++/Pointers.md",
+    "Notes/Programming/Object Oriented Design/UML.md",
+    "Notes/Programming/Object Oriented Design/Object oriented design.md",
+    "Notes/Programming/Object Oriented Design/Design Patterns.md",
+    "Notes/Programming/Object Oriented Design/Case Studies.md",
+    "Notes/Programming/Object Oriented Design",
+    "Notes/Programming/Languages/SQL/SQLite.md",
+    "Notes/Programming/Languages/SQL",
+    "Notes/Programming/Languages/C++/images/Design patterns cheat sheet.pdf",
+    "Notes/Programming/Languages/C++/Why c++ sucks.md",
+    "Notes/Programming/Frameworks/Bevy/Notes.md",
+    "Notes/Programming/Frameworks/Bevy",
+    "Notes/Mechanical Design/Stepper Motors.md",
     "Notes/Programming/Languages/C++/3150 Final Exam Study Guide.md",
     "Notes/Programming/Languages/C++/exams/Final-review.pdf",
     "Notes/Programming/Languages/C++/Multiple Inheritance.md",
     "Notes/Programming/Languages/C++/Constructors.md",
-    "Notes/Programming/Languages/C++/Pointers.md",
     "Notes/Programming/Languages/C++/exams/Midterm Study Guide.md",
     "Notes/Programming/Languages/C++/Iterators.md",
     "Notes/Quantum Computing/Exam/midterm.pdf",
@@ -240,15 +252,7 @@
     "Notes/Programming/Tools/Kitty terminal.md",
     "Notes/Programming/Languages/C++/Methods and Operators.md",
     "Notes/Programming/Languages/Python/Manim.md",
-    "Notes/Math/Algorithms/HW1.md",
-    "Notes/DSP/2.1 Signal Ambiguity.md",
-    "Notes/Math/Calculus of Variations.md",
-    "Projects/SLAMBike/Logs/6-15-23.md",
-    "Notes/Electrical Design/Cheat Sheets.md",
-    "Notes/Programming/OS/Grep.md",
     "Notes/Programming/Design/images/bridge uml.png",
-    "Projects/resonant/logs/11-11-23.md",
-    "Notes/Programming/Design/Structural Patterns.md",
     "Notes/Programming/Design/images/abstract factory.png",
     "Notes/Programming/Design/images/document editor ex.png",
     "Notes/Programming/Design/images/Strategy.png",
@@ -261,10 +265,6 @@
     "Projects/resonant/logs",
     "Notes/Programming/Design/images",
     "Notes/Programming/Design",
-    "Projects/Job Scraper/images",
-    "Notes/Control Systems",
-    "Notes/Programming/Languages/C++/images",
-    "Projects/SLAMBike/Books/Reaction Wheel Pendulum.pdf",
     "Projects/Distributed Quantum Computing/Code flow.canvas",
     "Projects/Distributed Quantum Computing/Untitled.canvas",
     "Projects/Makerspace/Institute for Engineering Success.canvas"
