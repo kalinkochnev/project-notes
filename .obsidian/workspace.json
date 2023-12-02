@@ -11,9 +11,11 @@
             "id": "4db93d1d5d5a49d8",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Notes/Programming/Languages/C++/images/Design patterns cheat sheet.pdf"
+                "file": "Notes/Programming/Languages/C++/Why c++ sucks.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Programming/Languages/C++/images/Design patterns cheat sheet.pdf",
+                "file": "Notes/Programming/Languages/C++/Why c++ sucks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Programming/Languages/C++/images/Design patterns cheat sheet.pdf",
+                "file": "Notes/Programming/Languages/C++/Why c++ sucks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Programming/Languages/C++/images/Design patterns cheat sheet.pdf"
+                "file": "Notes/Programming/Languages/C++/Why c++ sucks.md"
               }
             }
           },
@@ -156,8 +158,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e4bba0159106705c",
+  "active": "4db93d1d5d5a49d8",
   "lastOpenFiles": [
+    "Notes/Programming/Languages/C++/images/Design patterns cheat sheet.pdf",
+    "Notes/Programming/Languages/C++/Why c++ sucks.md",
     "Projects/Makerspace/Meeting Agenda 11-25-23.md",
     "Notes/Programming/Languages/C++/exams/Practice exam.md",
     "Notes/Programming/Languages/C++/exams/Midterm Study Guide.md",
@@ -168,7 +172,6 @@
     "Notes/Programming/Languages/C++/3150 Final Exam Study Guide.md",
     "Notes/Programming/Languages/C++/images/spiralrule.gif",
     "Notes/Programming/Languages/C++/Design patterns cheat sheet.pdf",
-    "Notes/Programming/Languages/C++/images/Design patterns cheat sheet.pdf",
     "Notes/Programming/Languages/C++/images/Pasted image 20230829211112.png",
     "Notes/Control Systems.md",
     "Notes/Mechanical Design/Stepper Motors.md",
@@ -188,8 +191,6 @@
     "Notes/Programming/Languages/C++/Adapters.md",
     "Notes/Programming/Languages/C++/C++.md",
     "Notes/Programming/Languages/SQL/SQLite.md",
-    "Notes/Programming/Languages/C.md",
-    "Notes/Programming/Languages/Lua.md",
     "respeakeraudiotest.png",
     "ifconfig.png",
     "Projects/resonant/logs",
