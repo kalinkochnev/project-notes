@@ -19,6 +19,7 @@ class C : public A, public B {
 }
 ```
 
+# Memory layout
 - What happens if you store a sub-class in a parent class variable with multiple inheritance? 
 	- The multiple inheritance can be thought of as designating different chunks of memory layout to what you inherit from
 ```c++
@@ -36,7 +37,7 @@ class B: public A {}
 class C: public A{}
 class D: public B, public C {}
 ```
-![[Pasted image 20231015190803.png]]
+
 - There are two cases. If you want calling methods of `B` and `C` to affect the same instance of A, you must allow the diamond. 
 - Otherwise instances of A are assumed to be independent so methods of B do not affect C and vice versa
 

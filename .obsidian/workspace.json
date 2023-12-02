@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "2ff4a59d10d0a2dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Programming/Languages/C++/Multiple Inheritance.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "b21dc16cdf243b12",
             "type": "leaf",
             "state": {
@@ -39,14 +51,6 @@
               "state": {
                 "file": "Notes/Programming/Languages/C++/exams/Final-review.pdf"
               }
-            }
-          },
-          {
-            "id": "823e1a0898714621",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ]
@@ -68,31 +72,14 @@
             }
           },
           {
-            "id": "203cd9197310efd3",
+            "id": "823e1a0898714621",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Programming/Languages/C++/exams/Midterm Study Guide.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1d8068fa131e42f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Programming/Languages/C++/Constructors.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -121,7 +108,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "overloading",
+                "query": "transfer",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -159,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Programming/Languages/C++/Constructors.md",
+                "file": "Notes/Programming/Languages/C++/Pointers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Programming/Languages/C++/Constructors.md",
+                "file": "Notes/Programming/Languages/C++/Pointers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Programming/Languages/C++/Constructors.md"
+                "file": "Notes/Programming/Languages/C++/Pointers.md"
               }
             }
           },
@@ -231,14 +218,15 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "1d8068fa131e42f7",
+  "active": "9c6d93387facb6fd",
   "lastOpenFiles": [
-    "Notes/Programming/Languages/C++/Iterators.md",
-    "Notes/Programming/Languages/C++/exams/Midterm Study Guide.md",
     "Notes/Programming/Languages/C++/3150 Final Exam Study Guide.md",
     "Notes/Programming/Languages/C++/exams/Final-review.pdf",
-    "Notes/Programming/Languages/C++/Pointers.md",
+    "Notes/Programming/Languages/C++/Multiple Inheritance.md",
     "Notes/Programming/Languages/C++/Constructors.md",
+    "Notes/Programming/Languages/C++/Pointers.md",
+    "Notes/Programming/Languages/C++/exams/Midterm Study Guide.md",
+    "Notes/Programming/Languages/C++/Iterators.md",
     "Notes/Quantum Computing/Exam/midterm.pdf",
     "Notes/Programming/Languages/C++/References.md",
     "Notes/Programming/Languages/C++/exams",
@@ -261,7 +249,6 @@
     "Notes/Programming/Design/images/bridge uml.png",
     "Projects/resonant/logs/11-11-23.md",
     "Notes/Programming/Design/Structural Patterns.md",
-    "Notes/Programming/Design/Creational Design Pattern.md",
     "Notes/Programming/Design/images/abstract factory.png",
     "Notes/Programming/Design/images/document editor ex.png",
     "Notes/Programming/Design/images/Strategy.png",

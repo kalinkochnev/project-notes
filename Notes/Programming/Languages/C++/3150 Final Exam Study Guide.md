@@ -30,10 +30,11 @@ void (*signal(int, void(*fp)(int)))(int);
 - [ ] **What are the iterator operations [[Iterators]]**
 - [ ] Overloading vs overriding [[Constructors#^6f1a56]]
 
-- [ ] **What are the signatures of each of the constructors?**
+- [ ] **What are the signatures of each of these?**
 	- [ ] Default/Custom [[Constructors#Default/Custom]]
 	- [ ] Copy constructor [[Constructors#Copy constructor]]
 	- [ ] Move constructor [[Constructors#Move constructor]]
+	- [ ] Transfer operation [[Constructors#Transfer operators]]
 - [ ] How do you prevent the compiler from autogenerating a constructor [[Constructors#Preventing auto-generated constructors]]
 - [ ] How do you override the assignment operator?[[Constructors]]
 - [ ] How do you move a value? 
@@ -41,16 +42,11 @@ void (*signal(int, void(*fp)(int)))(int);
 - [ ] What are the protected inheritance semantics? [[Final-review.pdf#page=39]]
 - [ ] What are the private inheritance semantics? [[Final-review.pdf#page=40]]
 
-
-Pointers, operations,
-
-**Transfer operator - move vs copy**
-**Order of destructors**
-**Subsumption**
-**Inheritance semantics**
-Dynamic binding
-**Finality**
-**Multiple inheritance**
+- [ ] What does final mean?
+- [ ] What is subsumption [[Final-review.pdf#page=37]]
+- [ ] How do destructors and multiple inheritance interact? [[Multiple Inheritance]]
+- [ ] How is multiple inheritance laid out in memory? [[Multiple Inheritance#Memory layout]]
+- [ ] What is the diamond problem? How do you get around it? [[Multiple Inheritance#Diamond problem]]
 
 ## Design patterns
 **UML diagrams**
