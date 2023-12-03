@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "dac5ff8fe2604aba",
+        "id": "bbe7bde97d496a4f",
         "type": "tabs",
         "children": [
           {
-            "id": "fae6995b3770ce8d",
+            "id": "7ab46dbfe0cf2c95",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -17,69 +17,6 @@
                 "mode": "source",
                 "source": false
               }
-<<<<<<< HEAD
-=======
-            }
-          },
-          {
-            "id": "2ff4a59d10d0a2dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Programming/Languages/C++/Multiple Inheritance.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b21dc16cdf243b12",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Programming/Languages/C++/Pointers.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "79bbbbcd4b5ed1e5",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Notes/Programming/Languages/C++/exams/Final-review.pdf"
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "98358f630df99688",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "9c6d93387facb6fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Programming/Languages/C++/Pointers.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "823e1a0898714621",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
->>>>>>> 693ff553369d9398c2293d83c12a8b2ccb4484e6
             }
           }
         ]
@@ -111,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "transfer",
+                "query": "protected",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -132,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 209.5
+    "width": 257.5
   },
   "right": {
     "id": "b5b9ba56968b115d",
@@ -148,11 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
                 "file": "Notes/Programming/Languages/C++/3150 Final Exam Study Guide.md",
-=======
-                "file": "Notes/Programming/Languages/C++/Pointers.md",
->>>>>>> 693ff553369d9398c2293d83c12a8b2ccb4484e6
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,11 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
                 "file": "Notes/Programming/Languages/C++/3150 Final Exam Study Guide.md",
-=======
-                "file": "Notes/Programming/Languages/C++/Pointers.md",
->>>>>>> 693ff553369d9398c2293d83c12a8b2ccb4484e6
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,16 +125,12 @@
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< HEAD
                 "file": "Notes/Programming/Languages/C++/3150 Final Exam Study Guide.md"
-=======
-                "file": "Notes/Programming/Languages/C++/Pointers.md"
->>>>>>> 693ff553369d9398c2293d83c12a8b2ccb4484e6
               }
             }
           },
           {
-            "id": "c6750bbaf35d6bba",
+            "id": "9f9783ae49627f4c",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -214,72 +139,73 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "publish:Publish changes...": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "publish:Publish changes...": false
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9c6d93387facb6fd",
+  "active": "7ab46dbfe0cf2c95",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Notes/Programming/Languages/C++/Pointers.md",
-    "Notes/Programming/Object Oriented Design/UML.md",
-    "Notes/Programming/Object Oriented Design/Object oriented design.md",
-    "Notes/Programming/Object Oriented Design/Design Patterns.md",
-    "Notes/Programming/Object Oriented Design/Case Studies.md",
-    "Notes/Programming/Object Oriented Design",
-    "Notes/Programming/Languages/SQL/SQLite.md",
-    "Notes/Programming/Languages/SQL",
-    "Notes/Programming/Languages/C++/images/Design patterns cheat sheet.pdf",
-    "Notes/Programming/Languages/C++/Why c++ sucks.md",
-    "Notes/Programming/Frameworks/Bevy/Notes.md",
-    "Notes/Programming/Frameworks/Bevy",
-    "Notes/Mechanical Design/Stepper Motors.md",
     "Notes/Programming/Languages/C++/3150 Final Exam Study Guide.md",
-    "Notes/Programming/Languages/C++/exams/Final-review.pdf",
-    "Notes/Programming/Languages/C++/Multiple Inheritance.md",
-    "Notes/Programming/Languages/C++/Constructors.md",
-    "Notes/Programming/Languages/C++/exams/Midterm Study Guide.md",
-    "Notes/Programming/Languages/C++/Iterators.md",
-    "Notes/Quantum Computing/Exam/midterm.pdf",
-    "Notes/Programming/Languages/C++/References.md",
-    "Notes/Programming/Languages/C++/exams",
-    "Notes/Programming/Languages/C++/Untitled.md",
-    "Notes/Programming/Languages/C++/Inheritance.md",
-    "Notes/Programming/Languages/C++/Inclusion.md",
-    "Notes/Programming/Languages/C++/Lambdas.md",
-    "Notes/Programming/OS/Linux.md",
+    "Notes/Programming/Languages/C++/Adapters.md",
+    "Notes/Programming/Languages/C++/Why c++ sucks.md",
+    "Notes/Programming/Languages/C++/images/Design patterns cheat sheet.pdf",
     "Projects/Makerspace/Meeting Agenda 11-25-23.md",
+    "Notes/Programming/Languages/C++/exams/Practice exam.md",
+    "Notes/Programming/Languages/C++/exams/Midterm Study Guide.md",
+    "Notes/Programming/Languages/C++/exams/Final-review.pdf",
+    "Notes/Programming/Languages/C++/exams",
+    "Notes/Programming/Languages/C++/Lambdas.md",
+    "Notes/Programming/Languages/C++/Inheritance.md",
+    "Notes/Programming/Languages/C++/images/spiralrule.gif",
+    "Notes/Programming/Languages/C++/Design patterns cheat sheet.pdf",
+    "Notes/Programming/Languages/C++/images/Pasted image 20230829211112.png",
+    "Notes/Control Systems.md",
+    "Notes/Mechanical Design/Stepper Motors.md",
     "Notes/Programming/Tools/nvim.md",
-    "Notes/Programming/Tools/Kitty terminal.md",
+    "Notes/Programming/Languages/C++/Object Oriented Programming.md",
+    "Notes/Programming/Languages/C++/Classes.md",
+    "Notes/Programming/Languages/C++/Multiple Inheritance.md",
+    "Notes/Programming/Tools/Clang.md",
+    "Notes/Programming/Languages/C++/Midterm Study Guide.md",
     "Notes/Programming/Languages/C++/Methods and Operators.md",
-    "Notes/Programming/Languages/Python/Manim.md",
-    "Notes/Programming/Design/images/bridge uml.png",
-    "Notes/Programming/Design/images/abstract factory.png",
-    "Notes/Programming/Design/images/document editor ex.png",
-    "Notes/Programming/Design/images/Strategy.png",
-    "Notes/Programming/Design/images/Publisher.png",
-    "Notes/Programming/Design/images/State.png",
-    "Notes/Programming/Design/images/Command.png",
+    "Notes/Programming/Languages/C++/Iterators.md",
+    "Notes/Programming/Languages/C++/Inclusion.md",
+    "Notes/Programming/Languages/C++/Exceptions.md",
+    "Notes/Programming/Languages/C++/Delegation.md",
+    "Notes/Programming/Languages/C++/Containers.md",
+    "Notes/Programming/Languages/C++/Constructors.md",
+    "Notes/Programming/Languages/C++/C++.md",
+    "Notes/Programming/Languages/SQL/SQLite.md",
     "respeakeraudiotest.png",
     "ifconfig.png",
-    "Pasted image 20231112000323.png",
     "Projects/resonant/logs",
+    "Notes/Programming/Design/images/bridge uml.png",
+    "Notes/Programming/Design/images/abstract factory.png",
+    "Notes/Programming/Design/images/Strategy.png",
+    "Notes/Programming/Design/images/State.png",
+    "Notes/Programming/Design/images/Publisher.png",
+    "Notes/Programming/Design/images/Handler.png",
     "Notes/Programming/Design/images",
     "Notes/Programming/Design",
+    "Projects/Job Scraper/images",
+    "Notes/Control Systems",
+    "Notes/Programming/Languages/C++/images",
     "Projects/Distributed Quantum Computing/Code flow.canvas",
     "Projects/Distributed Quantum Computing/Untitled.canvas",
     "Projects/Makerspace/Institute for Engineering Success.canvas"
