@@ -34,14 +34,14 @@ void (*signal(int, void(*fp)(int)))(int);
 	- [ ] Copy constructor [[Constructors#Copy constructor]]
 	- [ ] Move constructor [[Constructors#Move constructor]]
 	- [ ] Transfer operation [[Constructors#Transfer operators]]
-- [ ] How do you prevent the compiler from autogenerating a constructor [[Constructors#Preventing auto-generated constructors]]
+- [x] How do you prevent the compiler from autogenerating a constructor [[Constructors#Preventing auto-generated constructors]]
 - [ ] **How do you move a value?** 
 
 - [ ] **What are the protected inheritance semantics? [[Final-review.pdf#page=39]]**
 - [ ] **What are the private inheritance semantics? [[Final-review.pdf#page=40]]**
 
-- [ ] What does final mean?
-- [ ] **What is subsumption [[Final-review.pdf#page=37]]**
+- [x] What does final mean? [[Classes#^e6ecd3]]
+- [-- ] **What is subsumption [[Final-review.pdf#page=37]]**
 - [-- ] **How do destructors and multiple inheritance interact? [[Multiple Inheritance]]**
 - [x] **How is multiple inheritance laid out in memory? [[Multiple Inheritance#Memory layout]]**
 - [ ] **What is the diamond problem? How do you get around it? [[Multiple Inheritance#Diamond problem]]**
