@@ -11,8 +11,12 @@
             "id": "3528f99bb7eab186",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Programming/Design/Behavioral Patterns.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -61,12 +65,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 257.5
   },
   "right": {
     "id": "b5b9ba56968b115d",
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Programming/Design/Behavioral Patterns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Programming/Design/Behavioral Patterns.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Notes/Programming/Design/Behavioral Patterns.md"
+              }
             }
           },
           {
@@ -153,14 +161,15 @@
   },
   "active": "3528f99bb7eab186",
   "lastOpenFiles": [
-    "Notes/Programming/Languages/C++/exams/Final-review.pdf",
+    "Notes/Programming/Languages/C++/images/Design patterns cheat sheet.pdf",
+    "Notes/Programming/Languages/C++/Constructors.md",
     "Notes/Programming/Languages/C++/3150 Final Exam Study Guide.md",
+    "Notes/Programming/Languages/C++/exams/Final-review.pdf",
     "Projects/SLAMBike/Logs/6-15-23.md",
     "Notes/Programming/Languages/C++/Multiple Inheritance.md",
     "Notes/Programming/Languages/C++/Pointers.md",
     "Notes/Programming/Languages/C++/Adapters.md",
     "Notes/Programming/Languages/C++/Why c++ sucks.md",
-    "Notes/Programming/Languages/C++/images/Design patterns cheat sheet.pdf",
     "Projects/Makerspace/Meeting Agenda 11-25-23.md",
     "Notes/Programming/Languages/C++/exams/Practice exam.md",
     "Notes/Programming/Languages/C++/exams/Midterm Study Guide.md",
@@ -183,7 +192,6 @@
     "Notes/Programming/Languages/C++/Exceptions.md",
     "Notes/Programming/Languages/C++/Delegation.md",
     "Notes/Programming/Languages/C++/Containers.md",
-    "Notes/Programming/Languages/C++/Constructors.md",
     "respeakeraudiotest.png",
     "ifconfig.png",
     "Projects/resonant/logs",
