@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Programming/Design/Behavioral Patterns.md",
+                "file": "Notes/Math/Proofs/PS/PS9.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Programming/Design/Behavioral Patterns.md",
+                "file": "Notes/Math/Proofs/PS/PS9.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Programming/Design/Behavioral Patterns.md",
+                "file": "Notes/Math/Proofs/PS/PS9.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Programming/Design/Behavioral Patterns.md"
+                "file": "Notes/Math/Proofs/PS/PS9.md"
               }
             }
           },
@@ -161,6 +161,13 @@
   },
   "active": "3528f99bb7eab186",
   "lastOpenFiles": [
+    "Notes/Math/Proofs/PS/PS8.md",
+    "Notes/Math/Proofs/PS/PS9.md",
+    "Notes/Math/Proofs/PS/PS7.md",
+    "Notes/Math/Proofs/PS/PS6.md",
+    "Notes/Math/Proofs/PS/PS 13.md",
+    "Notes/Math/Proofs/Lectures/Induction.md",
+    "Notes/Programming/Design/Behavioral Patterns.md",
     "Notes/Programming/Languages/C++/images/Design patterns cheat sheet.pdf",
     "Notes/Programming/Languages/C++/Constructors.md",
     "Notes/Programming/Languages/C++/3150 Final Exam Study Guide.md",
@@ -186,12 +193,6 @@
     "Notes/Programming/Languages/C++/Classes.md",
     "Notes/Programming/Tools/Clang.md",
     "Notes/Programming/Languages/C++/Midterm Study Guide.md",
-    "Notes/Programming/Languages/C++/Methods and Operators.md",
-    "Notes/Programming/Languages/C++/Iterators.md",
-    "Notes/Programming/Languages/C++/Inclusion.md",
-    "Notes/Programming/Languages/C++/Exceptions.md",
-    "Notes/Programming/Languages/C++/Delegation.md",
-    "Notes/Programming/Languages/C++/Containers.md",
     "respeakeraudiotest.png",
     "ifconfig.png",
     "Projects/resonant/logs",
