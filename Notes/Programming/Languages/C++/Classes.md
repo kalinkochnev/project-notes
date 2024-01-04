@@ -42,4 +42,4 @@ shared_ptr<AStudent> shared(new Student);
 class Student: public AStudent {} // example inheritence of abstract class
 ```
 
-- `final` keyword says that you cannot override this method
+- `final` keyword says that you cannot override this method ^e6ecd3
