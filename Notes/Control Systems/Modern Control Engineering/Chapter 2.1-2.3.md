@@ -1,6 +1,16 @@
 - Accurate mathematical model of system is most important step
 - Assume causality: $t_{i} \implies t_{i+1}$
 
+# Helpful resources
+https://en.wikipedia.org/wiki/Transfer_function
+- for homogeneous/non-homogeneous systems
+
+https://electronics.stackexchange.com/a/645744
+- Meh explanation, went over my head
+
+https://electronics.stackexchange.com/a/492992
+- bode plot vs pole-zero plot
+
 # Types of systems
 **Linear system** - the principle of superposition holds.
 $$
@@ -200,4 +210,9 @@ $$
 
 ## Simplifying block diagram
 - Blocks can be in series if output of one block is not affected by next block
-- 
+
+# Poles and Zeros
+*for linear systems*
+A transfer function's numerator and denominator can be factored into polynomials. The "zeros" of the system are calculated by the zeros of the numerator. The poles are calculated by the zeros of the denominator.
+
+You can characterize the response of the system just from the poles. We can factor the denominator into linear terms. Then we can apply partial fraction decomposition to represent it as a sum of fractions with linear denominator terms. By the laplace transform this is (probably always) an exponential. Whether or not it is stable depends on the real and complex components of the pole. If there is a real component, it is unstable (explodes). If there is an imaginary component, there is a sinusoidal component.  

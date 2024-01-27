@@ -65,3 +65,6 @@ grouping .o files:
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d54f4e9a-f806-46ce-b0b9-1102be0f4260/Untitled.png)
 
 This is where the cpp files are converted into .o files. Afterwards there is the linking stage which puts together object files to create an executable
+
+# Types of assignment
+https://stackoverflow.com/questions/4879592/whats-the-difference-between-and-in-makefile

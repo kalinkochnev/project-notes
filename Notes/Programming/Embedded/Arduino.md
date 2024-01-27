@@ -8,3 +8,17 @@ Assuming `arduino-mk` was installed...
 - Arduino has header files for the "core" functionality like `digitalWrite()` etc in `/usr/share/arduino/hardware/arduino/avr/cores/arduino`
 - Other libraries like `Wire.h` are stored `/usr/share/arduino/hardware/arduino/avr/libraries`
 
+## Install library in project directory and include
+1. `USER_LIB_PATH` is the directory where your library files are located. Each folder should contain a `library.properties` folder to be a proper arduino library.
+2. Add the name of the library as specified by `library.properties` to the `ARDUINO_LIBS`
+ex:
+```bash
+### ARDUINO_LIBS
+### Any arduino libraries you intend to include
+### example 
+ARDUINO_LIBS = Wire SPI ODriveArduino CAN 
+
+### USER_LIB_PATH
+### Path to where the your project's libraries are stored.
+USER_LIB_PATH    =  $(realpath $(PROJECT_DIR)/lib)
+```
