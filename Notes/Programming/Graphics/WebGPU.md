@@ -57,3 +57,46 @@ const INDICES: &[u16] = &[
 ];
 
 ```
+
+# Inter-stage variables
+- The vertex shader can add additional data like color to each vertex
+- The new struct outputted from vertex shader can be inputted into the fragment shader
+
+```rust
+struct OurVertexShaderOutput {
+	@builtin(position) position: vec4f,
+	@location(0) color: vec4f,
+};
+```
+
+- If you want the fragment shader to only receive a specific field of the data (like the color), you can pass by @location
+
+
+# Uniform buffer
+- A blob of data available to every invocation to a set of shaders. Like a global variable
+
+
+# Textures
+- Images overlaid onto a triangular mesh
+
+**diffuse maps** - a color texture
+
+# TextureViews and Samplers
+- A texture view is a view into our texture
+- A sampler controls how a Texture is sampled - it returns corresponding colors based on texture coordinates and some other parameters
+
+# Bind groups
+- Describes a set of resources and how they can be accessed by the shader
+- under `device.create_pipeline_layout` we need to specify the bind group layouts for the texture
+- You can swap out bind groups as long as they all follow the same bind group layout
+- Every texture and sampler needs to be added to a bind group
+
+For instance this camera uniform struct is assigned to group 1 binding 0. The binding number is defined in the `BindGroupLayoutDescriptor` while the group number is set using `my_render_pass.set_bind_group(my_number, &some_bind_group)`
+```rust
+struct CameraUniform {
+	view_proj: mat4x4<f32>
+}
+@group(1) @binding(0) // need to specify bind group and which binding it is
+var<uniform> camera: CameraUniform;
+```
+- Bind groups are accessible to all shaders, even across pipelines

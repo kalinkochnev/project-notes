@@ -1,0 +1,1 @@
+- You have the tools you need (self knowledge)

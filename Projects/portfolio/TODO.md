@@ -3,3 +3,4 @@
 - Add meta tags for SEO
 - Remove margin from figures when in the slideshow container
 - Add resonant video to project page
+- Improve security: https://observatory.mozilla.org/analyze/kalinkochnev.com

@@ -1,7 +1,8 @@
 # Today's plans
+# Plans for next time
 # Recap
 # Documents worked on
-# Plans for next time
+
 # Notes
 # Questions
 

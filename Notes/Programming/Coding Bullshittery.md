@@ -1,0 +1,2 @@
+- [Can't determine if float was successfully converted C](https://stackoverflow.com/questions/8871711/atoi-how-to-identify-the-difference-between-zero-and-error), [continued](https://stackoverflow.com/questions/1640720/how-do-i-tell-if-the-c-function-atoi-failed-or-if-it-was-a-string-of-zeros?rq=3)
+- C doesn't have a default boolean type

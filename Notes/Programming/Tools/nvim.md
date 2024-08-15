@@ -1,5 +1,11 @@
 https://github.com/iggredible/Learn-Vim/tree/master
 cheatsheet: https://docs.google.com/spreadsheets/d/19l4rQdYZfqpMtdTjvCrYLF2z9OsAqahhPunnw7I831s/edit#gid=1082709605
+# TODO
+- [ ] Update keymaps from kickstart vim
+- [ ] Learn to navigate more efficiently
+- [ ] auto closing braces?
+- [ ] smarter code folds? Rn it's super annoying
+
 
 # Navigation
 
@@ -24,7 +30,7 @@ cheatsheet: https://docs.google.com/spreadsheets/d/19l4rQdYZfqpMtdTjvCrYLF2z9OsA
 | `Ctrl-E/Ctrl-Y`            | normal   | scroll down/up a line                                      |
 | `n`/`N`                    | normal   | After completing a search, go to next/previous occurrences |
 | `<n>gt/<n>gT`              | normal   | go to tab n                                                |
-|                            |          |                                                            |
+| `:Telescope keymaps`       |          | search for your keymaps                                    |
 ## Grammar
 - Noun (motion like `h`, `w`, etc) + verb (`y`, `d`, `c`)
 - accepts arguments
@@ -97,7 +103,12 @@ Open session `nvim -S <path>/mysession.vim`
 
 ## Source a file
 `:so`
-
+## Configure tabs and spaces
+```vim
+:set tabstop=4
+:set shiftwidth=4
+:set expandtab
+```
 # Files
 
 | Keybind | Mode | Action     |
@@ -184,7 +195,8 @@ https://microsoft.github.io/language-server-protocol/implementors/servers/
 | `:Git push` | normal | push the commits                     |
 | `X`         | normal | discards the change/file             |
 | `gI`        | normal | adds file under cursor to git ignore |
-| :            |        |                                      |
+| :           |        |                                      |
+|             |        |                                      |
 
 # Search and replace
 
@@ -199,12 +211,13 @@ https://microsoft.github.io/language-server-protocol/implementors/servers/
 `\0` - first capture group (or entire line if a selection)
 `\1 \2 \3 ...` - other capture groups
 `&` when replacing represents the selection found so you can append/prepend
-<<<<<<< HEAD
-`\r` is a carriage return
-
-=======
 `\r` - insert newline
->>>>>>> origin/main
+
+Use a substitution with the `c` flag for confirming one at a time
+
+```
+:%s/Paul/Ringo/gc
+```
 ## Replace markdown images with
 Regex to find `![[ link.png ]]` is `!\[\[([^\]]*)\]\]`
 `:%s/\v!\[\[([^\]]*)\]\]/{{<figure src="\1" alt="">}}/g`

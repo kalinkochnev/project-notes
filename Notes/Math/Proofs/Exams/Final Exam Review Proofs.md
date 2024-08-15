@@ -4,7 +4,7 @@
 - Truth tables
 - Negations
 
-[[Counting]]
+[[Notes/Math/Proofs/Lectures/Counting]]
 [[Addition and Subtraction Principle]]
 [[Factorials and Permutations]]
 [[Counting Subsets]]

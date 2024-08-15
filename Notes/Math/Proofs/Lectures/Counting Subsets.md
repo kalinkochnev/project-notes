@@ -30,7 +30,7 @@ Compare ${n \choose k}$ to $P(n,k)$
 $$
 {n \choose k}=\frac{P(n,k)}{\text{\# ways to reorder k elements}}=\frac{\frac{n!}{(n-k)!}}{k!}=\frac{n!}{k!(n-k)!}
 $$
-- If you have k elements, the # of ways to order them is k * k-1 * ... 1 [[Counting#Counting no repeats]]
+- If you have k elements, the # of ways to order them is k * k-1 * ... 1 [[Notes/Math/Proofs/Lectures/Counting#Counting no repeats]]
 
 ## example
 How many 6 digit numbers **w/ digits 1-9** have exactly 2 even digits

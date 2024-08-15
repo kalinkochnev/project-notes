@@ -1,0 +1,3 @@
+- When debugging circuits, consider what would happen if you inputted the maximum or minimum value (especially when using opamps)
+- Ask questions. Even if the feel dumb
+- 

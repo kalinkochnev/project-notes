@@ -61,7 +61,7 @@ What is the process for a proof by smallest counterexample?
 How do we apply contradiction in this case?
 
 # Counting
-[[Counting]]
+[[Notes/Math/Proofs/Lectures/Counting]]
 What is the multiplication principle?
 How do we count the number of possible ways of arrange N items with no repeats?
 

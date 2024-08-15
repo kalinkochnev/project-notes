@@ -13,3 +13,11 @@ https://sw.kovidgoyal.net/kitty/conf/
 
 ## Next tab
 `ctrl-shift-right`
+
+# Bad SSH behavior
+https://wiki.archlinux.org/title/Kitty#Terminal_issues_with_SSH
+- Terminal information from ssh needs to be copied over to kitty
+- Kitty has a script to automate this
+```
+kitty +kitten ssh user@host
+```

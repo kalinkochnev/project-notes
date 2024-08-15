@@ -1,9 +1,11 @@
+
 Symbol name | Latex | Symbol -|- | -
 Does not divide | \nmid | $\nmid$
 Infinity | \infty | $\infty$
 Not in | \notin | $\notin$
 Piecewise | \begin{cases}\end{cases} (separated by \\\\) | $f(x)=\begin{cases}0 & x\leq 0 \\1 & x>0\end{cases}$
 Bold | \textbf{} | $\mathbf{hi}$
+
 
 - Regex to select all "$ $" in a document:
 ```

@@ -110,3 +110,13 @@ Keywords=something;more;
 2. Store the .desktop file under `/home/username/.local/share/applications/`
 3. Create a new folder under the home directory called `Applications/` and move the `.AppImage` file there
 4. The Icon can be stored under `/home/username/.local/share/icons/hicolor/` and find the appropriate directory based on image size (svgs are supported)
+
+# See what ports are in use
+```
+sudo netstat -tunlp
+```
+- `-t` show tcp
+- `-u` show udp
+- `-n` show numerical addresses instead of resolving hosts
+- `-l` show only listening prots
+- `-p` show the PID/name of the process

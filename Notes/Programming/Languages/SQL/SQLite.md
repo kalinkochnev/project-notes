@@ -15,3 +15,11 @@ https://www.sqlite.org/schematab.html
 INTEGER
 VARCHAR(<N CHARS>)
 ```
+
+https://sqlite.org/datatype3.html
+
+# Foreign keys
+https://www.sqlite.org/foreignkeys.html
+# Create one to many relationship
+https://stackoverflow.com/a/13262880
+
