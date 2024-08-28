@@ -1,5 +1,20 @@
 # 8/15/24
-- [ ] Implement transmit/receives implementations for serial in `serial_reader_dummy.c`
+- [x] Implement transmit/receives implementations for serial in `serial_reader_dummy.c`
+- [ ] Test UART communication from esp32
+
+- Be warned of auto-imports. They can break things unintentionally.
+
+- Important files: `serial_transport.h`
+	- `TMR_SR_SerialTransport` struct is the abstraction for the communication with the specific platform
+## API Notes
+> [!PDF|yellow] [[M6E-NANO Datasheet.pdf#page=14&selection=20,14,20,99&color=yellow|M6E-NANO Datasheet, p.5]]
+> > host processor’s receiver must have the capability to receive up to 256 bytes of data
+
+
+
+> [!PDF|yellow] [[M6E-NANO Datasheet.pdf#page=14&selection=45,5,45,74&color=yellow|p.5]]
+> >  Upon initial power up, the default baud rate of 115200 will be used.
+
 
 [[API]]
 [[M6E-NANO Datasheet.pdf]]
@@ -7,10 +22,6 @@
 # 8/13/24
 Here is an example on how to integrate esp32 components 
 https://github.com/martinberlin/cale-idf/tree/master/components
-
-## API Notes
-> [!PDF|yellow] [[M6E-NANO Datasheet.pdf#page=14&selection=45,5,45,74&color=yellow|p.5]]
-> >  Upon initial power up, the default baud rate of 115200 will be used.
 
 
 
@@ -48,5 +59,5 @@ I made an outline of the MVP [[Site MVP]]
 [Establishing serial communication ESP32](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/establish-serial-connection.html)
 [[M6E-NANO Datasheet.pdf]]
 [Other documentation on dev board](https://www.sparkfun.com/products/14066#documents-tab)
-[[ThingMagic-MercuryAPI-Programmer-Guide-1_37_3.pdf|Mercury API Programmers Guide]]]]
+[[ThingMagic-MercuryAPI-Programmer-Guide-1_37_3.pdf|Mercury API Programmers Guide]]
 [[Baremetal_Interfacing_Guide.pdf|Mercury API Bare Metal Guide]]

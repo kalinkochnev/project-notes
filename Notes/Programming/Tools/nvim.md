@@ -1,37 +1,22 @@
-https://github.com/iggredible/Learn-Vim/tree/master
+mahttps://github.com/iggredible/Learn-Vim/tree/master
 cheatsheet: https://docs.google.com/spreadsheets/d/19l4rQdYZfqpMtdTjvCrYLF2z9OsAqahhPunnw7I831s/edit#gid=1082709605
 # TODO
 - [ ] Update keymaps from kickstart vim
 - [ ] Learn to navigate more efficiently
+	- [ ] Finish watching this video https://youtu.be/qZO9A5F6BZs?si=PmK6_vHd-3tnhdWV
 - [ ] auto closing braces?
 - [ ] smarter code folds? Rn it's super annoying
+- [x] How to update neovim
 
+# Motions/Grammar
 
-# Navigation
-
-| Keybind                    | Mode     | Action                                                     |
-| -------------------------- | -------- | ---------------------------------------------------------- |
-| `<h>`, `<j>`, `<k>`, `<l>` | normal   | left, down, up, right                                      |
-| `<w>`, `<b>`               | normal   | Start of next word, start of previous word                 |
-| `<}>`                      | normal   | Next paragraph                                             |
-| `$`                        | normal   | Move to end of line                                        |
-| `^`                        | normal   | Move to start of line                                      |
-| `+`                        | normal   | Next line                                                  |
-| `:Ex`                      | normal   | Open Netrw file explorer                                   |
-| `%`                        | Netrw    | New file                                                   |
-| `d`                        | Netrw    | New directory                                              |
-| `Ctrl+\,Ctrl+n`            | terminal | exit terminal                                              |
-| `G`                        | normal   | go to last line                                            |
-| `gg`                       | normal   | go to first line                                           |
-| `nG`                       | normal   | go to line **n**                                           |
-| `Ctrl-W` + (h,j,k,l)       | normal   | navigate between windows                                   |
-| `Ctrl-F/Ctrl-B`            | normal   | scroll down/up a whole screen                              |
-| `Ctrl-D/Ctrl-U`            | normal   | scroll down/up half a screen                               |
-| `Ctrl-E/Ctrl-Y`            | normal   | scroll down/up a line                                      |
-| `n`/`N`                    | normal   | After completing a search, go to next/previous occurrences |
-| `<n>gt/<n>gT`              | normal   | go to tab n                                                |
-| `:Telescope keymaps`       |          | search for your keymaps                                    |
-## Grammar
+| command +  | count + | motion |
+| ---------- | ------- | ------ |
+| d (delete) |         | j      |
+| c          |         | k      |
+| y (yank)   |         | l      |
+| v          |         | h      |
+|            |         | $/_    |
 - Noun (motion like `h`, `w`, etc) + verb (`y`, `d`, `c`)
 - accepts arguments
 - linewise operators are done with repeated verb (yy, dd, cc)
@@ -40,6 +25,42 @@ cheatsheet: https://docs.google.com/spreadsheets/d/19l4rQdYZfqpMtdTjvCrYLF2z9OsA
 `dw` - delete up to next word
 `y2h` - yank two characters to the left
 `c2j` - change next two lines
+`d2f(` delete up to the 2nd parenthesis
+
+# Motions
+- A paragraph is any continguous sequence of non-whitespace lines
+
+| Keybind                              | Mode       | Action                                                                                                             |
+| ------------------------------------ | ---------- | ------------------------------------------------------------------------------------------------------------------ |
+| `<h>`, `<j>`, `<k>`, `<l>`           | normal     | left, down, up, right                                                                                              |
+| `<w>`, `<b>`                         | normal     | Start of next word, start of previous word                                                                         |
+| ==`f<some char>`<br>`F<some char>`== | ==normal== | ==`f` - Moves to the first occurrence of some char (cursor on top) forward direction<br>`F` - backward direction== |
+| ==`t<some char>`<br>`T<some char>`== | ==normal== | ==Moves to character before first occurrence of some char<br>`T` - backward direction==                            |
+| ==`;`==                              | ==normal== | ==After using `f` or `t`, it brings you to the next occurrence==                                                   |
+| ==`,`==                              | ==normal== | ==After using `f` or `t`, it brings you to the previous occurrence==                                               |
+| `a`                                  | normal     | Go into insert mode to character after the one the cursor is on                                                    |
+| `A`                                  | normal     | Go to insert mode after the last character on the line                                                             |
+| `I`                                  | normal     | Go into insert mode at the start of the line                                                                       |
+| ==`o`/`O`==                          | ==normal== | ==Go to next/previous line and go into insert mode==                                                               |
+| ==`<C-d>`/`<C-u>`==                  | ==normal== | ==Move down/up half a page==                                                                                       |
+| `}`/`{`                              | normal     | Next/previous paragraph                                                                                            |
+| `$`                                  | normal     | Move to end of line                                                                                                |
+| `^`/`_`                              | normal     | Move to start of line                                                                                              |
+| `+`                                  | normal     | Next line                                                                                                          |
+| `:Ex`                                | normal     | Open Netrw file explorer                                                                                           |
+| `%`                                  | Netrw      | New file                                                                                                           |
+| `d`                                  | Netrw      | New directory                                                                                                      |
+| `Ctrl+\,Ctrl+n`                      | terminal   | exit terminal                                                                                                      |
+| `G`                                  | normal     | go to last line                                                                                                    |
+| `gg`                                 | normal     | go to first line                                                                                                   |
+| `nG`                                 | normal     | go to line **n**                                                                                                   |
+| `Ctrl-W` + (h,j,k,l)                 | normal     | navigate between windows                                                                                           |
+| `Ctrl-F/Ctrl-B`                      | normal     | scroll down/up a whole screen                                                                                      |
+| `Ctrl-D/Ctrl-U`                      | normal     | scroll down/up half a screen                                                                                       |
+| `Ctrl-E/Ctrl-Y`                      | normal     | scroll down/up a line                                                                                              |
+| `<n>gt/<n>gT`                        | normal     | go to tab n                                                                                                        |
+| `:Telescope keymaps`                 |            | search for your keymaps                                                                                            |
+
 ``
 
 
@@ -124,23 +145,14 @@ Open session `nvim -S <path>/mysession.vim`
 `vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)` 
 While in normal mode "n", set "< leaderpv>" to the command ":Ex"
 
-| Keybind       | Action                                     |
-| ------------- | ------------------------------------------ |
-| `< leader>`   | space                                      |
-| `< leader>pv` | netrw                                      |
-| `< leader>pf` | fuzzy search project files                 |
-| `< leader>ps` | find in file                               |
-| `<C-p>`       | find in git repo                           |
-| `< leader>u`  | View undo tree for file                    |
-| `<` leader>a  | Harpoon add file                           |
-| `dd`          | While in harpoon menu, delete from harpoon |
-| `<C-e>`       | Toggle harpoon menu                        |
-| `<C-h>`       | harpoon file 1                             |
-| `<C-t>`       | harpoon file 2                             |
-| `<C-n>`       | harpoon file 3                             |
-| `<C-s>`       | harpoon file 4                             |
-| `< leader>gs` | Open git menu                              |
-| J/K           | slide selection up/down                                      |
+| Keybind       | Action                     |
+| ------------- | -------------------------- |
+| `< leader>`   | space                      |
+| `< leader>pv` | netrw                      |
+| `< leader>sg` | fuzzy search project files |
+| `< leader>u`  | View undo tree for file    |
+| `< leader>gs` | Open git menu              |
+| J/K           | slide selection up/down    |
 
 
 # Packages
@@ -200,11 +212,14 @@ https://microsoft.github.io/language-server-protocol/implementors/servers/
 
 # Search and replace
 
-| Keybind                                     | Mode   | Action     |
-| ------------------------------------------- | ------ | ---------- |
-| `:s/<regex>/<replace with>/<flags> [count]` | normal | Substitute |
-| `:g/<regex>/`                               | normal | Search     |
-|                                             |        |            |
+| Keybind                                     | Mode       | Action                                                           |
+| ------------------------------------------- | ---------- | ---------------------------------------------------------------- |
+| `:s/<regex>/<replace with>/<flags> [count]` | normal     | Substitute                                                       |
+| `:g/<regex>/`                               | normal     | Search                                                           |
+| ==`n`/`N`==                                 | ==normal== | ==After completing a search, go to next/previous occurrences==   |
+| `/`                                         | normal     | Search for occurrences in file after cursor                      |
+| `?`                                         | normal     | Search for occurrences in file before cursor                     |
+| ==`*`\`#`==                                 | ==normal== | ==Search for the word that the cursor is on using `/` (or `?`)== |
 
 `%` - look for all occurences in the file
 `\v` - very magic mode (basically regular regex). Otherwise any regex characters must be escaped with `\` which is annoying
@@ -224,3 +239,16 @@ Regex to find `![[ link.png ]]` is `!\[\[([^\]]*)\]\]`
 
 # Lists of plugins
 https://github.com/rockerBOO/awesome-neovim
+
+# Building/Updating From Source
+[Build from source](https://github.com/neovim/neovim/blob/master/BUILD.md)
+1. Install [build prerequisites](https://github.com/neovim/neovim/blob/master/BUILD.md#build-prerequisites) on your system
+2. `git clone https://github.com/neovim/neovim`
+3. `cd neovim && make CMAKE_BUILD_TYPE=RelWithDebInfo`
+    - If you want the **stable release**, also run `git checkout stable`.
+    - If you want to install to a custom location, set `CMAKE_INSTALL_PREFIX`. See also [INSTALL.md](https://github.com/neovim/neovim/blob/master/INSTALL.md#install-from-source).
+    - On BSD, use `gmake` instead of `make`.
+    - To build on Windows, see the [Building on Windows](https://github.com/neovim/neovim/blob/master/BUILD.md#building-on-windows) section. _MSVC (Visual Studio) is recommended._
+4. `sudo make install`
+    - Default install location is `/usr/local`
+    - On Debian/Ubuntu, instead of installing files directly with `sudo make install`, you can run `cd build && cpack -G DEB && sudo dpkg -i nvim-linux64.deb` to build DEB-package and install it. This should help ensuring the clean removal of installed files.

@@ -16,6 +16,9 @@
 
 # Programming
 [Interesting programming tool tutorials](https://calmcode.io/)
-
+[Learn the syntax of a language really fast](https://learnxinyminutes.com/docs/rust/)
 ## Neural networks
 [Youtube tutorials](https://www.linkedin.com/posts/justin-hodges-phd-3432a58b_ai-machinelearning-datascience-activity-7217898076579971073-1mZF?utm_source=share&utm_medium=member_desktop)
+
+# Programming
+[ESP32 Tutorials](https://randomnerdtutorials.com/esp32-lora-rfm95-transceiver-arduino-ide/)

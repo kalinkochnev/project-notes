@@ -1,0 +1,1 @@
+- reframe things you are interested in. Fine right perspective to find interest

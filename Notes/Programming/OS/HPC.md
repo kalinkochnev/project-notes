@@ -2,6 +2,7 @@
 [AnyConnect VPN setup](https://kb.uconn.edu/space/IKB/10907091023/Cisco+AnyConnect+VPN#Red-Hat-Enterprise-Linux-8-Installation-Instructions)
 
 # Login
+[[Kitty terminal#Bad SSH behavior]]
 - `ssh kak21001@hpc2.storrs.hpc.uconn.edu`
 # Terminology
 **Head node** - coordinates jobs across compute nodes
@@ -16,8 +17,11 @@
 **compute node** - the machines a job executes on. Must be scheduled
 # Flow
 1. Initial ssh brings you to login node
-2. Configure a bash script with the required compute resources
+2. Rsync files from laptop
+3. Configure a bash script with the required compute resources
 ex: 
+![[5-7-24 to 5-9-24#Notes]]
+
 ```
 #!/bin/bash
 #SBATCH --ntasks=1    # Job only requires 1 CPU core
@@ -26,7 +30,7 @@ echo "Hello, World"   # The actual command to run
 ```
 3. Submit a job using sbatch
 ```
-sbatch myJob.sh
+sbatch -J MyJobName myJob.sh
 ```
 ## Interactive jobs
 - Interact with real time applications like jupyter notebook, matlab, etc

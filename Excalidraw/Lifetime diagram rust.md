@@ -303,7 +303,7 @@ attempt 2 ^zjgVt7Py
 			"containerId": null,
 			"originalText": "2) If &x becomes assigned to a variable r,\n    &x must be valid for at least as long as r  ",
 			"lineHeight": 1.15,
-			"baseline": 95
+			"baseline": 94
 		},
 		{
 			"type": "ellipse",
@@ -892,8 +892,8 @@ attempt 2 ^zjgVt7Py
 		},
 		{
 			"type": "text",
-			"version": 495,
-			"versionNonce": 2125367753,
+			"version": 496,
+			"versionNonce": 1471288013,
 			"isDeleted": false,
 			"id": "VFQy2RI0",
 			"fillStyle": "hachure",
@@ -915,7 +915,7 @@ attempt 2 ^zjgVt7Py
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1710084206787,
+			"updated": 1724358435532,
 			"link": null,
 			"locked": false,
 			"fontSize": 39.49077268299183,
@@ -1014,7 +1014,7 @@ attempt 2 ^zjgVt7Py
 			"containerId": null,
 			"originalText": "valid:",
 			"lineHeight": 1.2,
-			"baseline": 27
+			"baseline": 26
 		},
 		{
 			"type": "text",
@@ -1053,7 +1053,7 @@ attempt 2 ^zjgVt7Py
 			"containerId": null,
 			"originalText": "&x lives for at least as long as r",
 			"lineHeight": 1.15,
-			"baseline": 25
+			"baseline": 26
 		},
 		{
 			"type": "text",
@@ -1092,7 +1092,7 @@ attempt 2 ^zjgVt7Py
 			"containerId": null,
 			"originalText": "invalid:",
 			"lineHeight": 1.2,
-			"baseline": 27
+			"baseline": 26
 		},
 		{
 			"type": "text",
@@ -1167,8 +1167,8 @@ attempt 2 ^zjgVt7Py
 		},
 		{
 			"type": "text",
-			"version": 1191,
-			"versionNonce": 1890489159,
+			"version": 1192,
+			"versionNonce": 1111952515,
 			"isDeleted": false,
 			"id": "9ZJYEVHD",
 			"fillStyle": "hachure",
@@ -1191,7 +1191,7 @@ attempt 2 ^zjgVt7Py
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1710084206789,
+			"updated": 1724358435535,
 			"link": null,
 			"locked": false,
 			"fontSize": 39.67638773828445,
@@ -1239,8 +1239,8 @@ attempt 2 ^zjgVt7Py
 		},
 		{
 			"type": "text",
-			"version": 1394,
-			"versionNonce": 632055977,
+			"version": 1395,
+			"versionNonce": 853553453,
 			"isDeleted": false,
 			"id": "spjh25Qy",
 			"fillStyle": "hachure",
@@ -1263,7 +1263,7 @@ attempt 2 ^zjgVt7Py
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1710084206789,
+			"updated": 1724358435535,
 			"link": null,
 			"locked": false,
 			"fontSize": 39.49077268299183,
@@ -1420,7 +1420,7 @@ attempt 2 ^zjgVt7Py
 			"containerId": null,
 			"originalText": "attempt 1",
 			"lineHeight": 1.15,
-			"baseline": 25
+			"baseline": 26
 		},
 		{
 			"type": "ellipse",
@@ -1528,8 +1528,8 @@ attempt 2 ^zjgVt7Py
 		},
 		{
 			"type": "text",
-			"version": 1316,
-			"versionNonce": 673878631,
+			"version": 1317,
+			"versionNonce": 257459235,
 			"isDeleted": false,
 			"id": "sck2uqtr",
 			"fillStyle": "hachure",
@@ -1552,7 +1552,7 @@ attempt 2 ^zjgVt7Py
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1710084206790,
+			"updated": 1724358435536,
 			"link": null,
 			"locked": false,
 			"fontSize": 39.49077268299183,
@@ -1709,7 +1709,7 @@ attempt 2 ^zjgVt7Py
 			"containerId": null,
 			"originalText": "attempt 2",
 			"lineHeight": 1.15,
-			"baseline": 25
+			"baseline": 26
 		},
 		{
 			"type": "arrow",
@@ -1775,10 +1775,10 @@ attempt 2 ^zjgVt7Py
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "triangle",
-		"scrollX": 260.9738691981104,
-		"scrollY": 495.57982850560853,
+		"scrollX": 221.20204323139558,
+		"scrollY": 440.02374694212375,
 		"zoom": {
-			"value": 0.7000000000000001
+			"value": 0.8500000000000001
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
