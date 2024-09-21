@@ -1,1 +1,0 @@
-Let image sizes by 750x450 px for all content pages

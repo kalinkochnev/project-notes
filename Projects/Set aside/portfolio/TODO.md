@@ -1,0 +1,6 @@
+- Add image loading animation only to images that are currently visible
+- Add styling for markdown tables
+- Add meta tags for SEO
+- Remove margin from figures when in the slideshow container
+- Add resonant video to project page
+- Improve security: https://observatory.mozilla.org/analyze/kalinkochnev.com

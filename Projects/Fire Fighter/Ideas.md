@@ -1,3 +1,0 @@
-- Enter the game and the landscape very lush, lots of wildlife, doing your own thing
-- Then the biome eventually starts catching fire all around you
-- Start the game trying to stop a wildfire
