@@ -7,6 +7,9 @@ $$
 \frac{1}{1-x}=1+x+x^2+x^{3}+\dots
 $$
 - Absolutely convergent - absolute value of series will converge to a value
+
+# Taylor Series
+
 # Fundamental theorem of calculus
 ```latex
 \textbf{Part 1:}
