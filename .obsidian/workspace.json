@@ -8,15 +8,37 @@
         "type": "tabs",
         "children": [
           {
-            "id": "46afb590a8309509",
+            "id": "a18cd55611922548",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Active/Fluid Dynamics/logs/Ongoing Log.md",
+                "file": "Notes/Embedded/AVR/Timers.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "a26291b0e95c4cde",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Notes/Embedded/AVR/references/AVR128DB28 Datasheet.pdf",
+                "page": 246,
+                "left": -9,
+                "top": 326,
+                "zoom": 1.6286764705882353
+              }
+            }
+          },
+          {
+            "id": "8a3e860c7d232cf9",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Active/Fluid Dynamics/logs/Ongoing Log.md",
+                "file": "Notes/Embedded/AVR/Timers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Active/Fluid Dynamics/logs/Ongoing Log.md",
+                "file": "Notes/Embedded/AVR/Timers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Active/Fluid Dynamics/logs/Ongoing Log.md"
+                "file": "Notes/Embedded/AVR/Timers.md"
               }
             }
           },
@@ -142,7 +164,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -164,8 +187,17 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "e4bba0159106705c",
+  "active": "a18cd55611922548",
   "lastOpenFiles": [
+    "Notes/Embedded/AVR/references/AVR128DB28 Datasheet.pdf",
+    "Notes/Embedded/AVR/Timers.md",
+    "Notes/Embedded/AVR/presentations/Lecture 6.pdf",
+    "Notes/Math/Linear Algebra/Determinants.md",
+    "Pasted image 20240923144434.png",
+    "Notes/Math/Linear Algebra/Cramer's Rule.md",
+    "Projects/Active/Senior Design/Papers/Towards Intelligent Cooperative Robotics.pdf",
+    "Projects/Active/Senior Design/Papers/highlights/Towards Intelligent Cooperative Robotics.md",
+    "Projects/Active/Fluid Dynamics/logs/Ongoing Log.md",
     "Notes/Math/Calculus.md",
     "Notes/Control Systems/Control System Engineering.pdf",
     "Notes/Control Systems/Linearization.md",
@@ -180,9 +212,7 @@
     "Notes/Embedded/AVR/presentations/Lecture 5.pdf",
     "Notes/Programming/Tools/Git/Git.md",
     "Notes/Embedded/AVR/references/AVR128DB28-32-48-64-DataSheet-DS40002247-1.pdf",
-    "Notes/Embedded/AVR/references/AVR128DB28 Datasheet.pdf",
     "Notes/Embedded/AVR/presentations/Lecture 4.pdf",
-    "Notes/Math/Linear Algebra/Determinants.md",
     "Projects/hacklab/planning/General Body Meeting 9-18-24.md",
     "Notes/Electrical/PCB Design.md",
     "Notes/Control Systems/ece3411/Rotational System Transfer Functions.md",
@@ -190,17 +220,11 @@
     "Notes/Embedded/AVR/Peripheral Address Map.md",
     "Notes/Embedded/AVR/presentations/Lecture 2.pdf",
     "Notes/Embedded/AVR/presentations/Lecture 3.pdf",
-    "Notes/Math/Linear Algebra/Handwritten Notes.pdf",
     "Notes/Math/Linear Algebra/Cramers Rule.md",
-    "Notes/Control Systems/ece3411/Control System Engineering.pdf",
     "Notes/Embedded/AVR/Digital Input.md",
     "Notes/Embedded/AVR/IO Configuration.md",
     "Notes/Embedded/AVR/Register Descriptions.md",
     "Notes/Embedded/AVR/references/Datasheet Notes.md",
-    "Projects/hacklab/hackathon/Hackathon Plan.md",
-    "Projects/obsidiantohugo.md",
-    "Notes/Math/Proofs/Exams/Exam 3 Prep.md",
-    "Notes/Programming/Languages/Rust/Rust.md",
     "Pasted image 20240815195416.png",
     "Pasted image 20240815203600.png",
     "Pasted image 20240911143627.png",
@@ -210,7 +234,6 @@
     "Projects/Fluid Dynamics/images/Pasted image 20240822145518.png",
     "Projects/Fluid Dynamics/images/Pasted image 20240822145003.png",
     "Projects/Fluid Dynamics/images/Pasted image 20240822141901.png",
-    "Projects/Fluid Dynamics/images/Pasted image 20240822161727.png",
     "Projects/Distributed Quantum Computing/Code flow.canvas",
     "Projects/Distributed Quantum Computing/Untitled.canvas",
     "Projects/Makerspace/Institute for Engineering Success.canvas"

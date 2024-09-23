@@ -25,7 +25,7 @@ What is a manifold?
 > >  To improve process planning within WAAM systems, a corner detection algorithm is implemented such that the robot feed rate is increased during sharp corner
 - Does increasing feedrate decrease the amount of material deposited? 
 
-# Introduction
+# 1. Introduction
 > [!PDF|yellow] [[Towards Intelligent Cooperative Robotics.pdf#page=1&selection=108,0,111,16&color=yellow|Towards Intelligent Cooperative Robotics, p.1]]
 > > Recent research has turned to the development of AM systems that leverage robotic arms to facilitate the motion of toolheads, commonly referred to as robotic additive manufacturing (RAM) 
 
