@@ -4,35 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "f9583e3e6ef8b11e",
+        "id": "46a4c499cfc996d3",
         "type": "tabs",
         "children": [
           {
-            "id": "0da493df12b55ca0",
+            "id": "a18cd55611922548",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Embedded/AVR/Interrupts.md",
+                "file": "Notes/Embedded/AVR/UART.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4872b24ea2419d88",
+            "id": "a26291b0e95c4cde",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Notes/Embedded/AVR/Peripheral Address Map.md",
-                "mode": "source",
-                "source": false
+                "file": "Notes/Embedded/AVR/references/AVR128DB28 Datasheet.pdf",
+                "page": 1,
+                "left": -9,
+                "top": 796,
+                "zoom": 1.6286764705882353
               }
             }
           },
           {
-            "id": "c861198e5c8e0b8f",
+            "id": "0c0bda3f63e6a6c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -42,28 +44,23 @@
                 "source": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "3dd87c43d3b81a1f",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "eba4e7f2f214894f",
+            "id": "7723be68431e3cfd",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Notes/Embedded/AVR/presentations/Lecture 7.pdf",
-                "page": 12,
-                "left": -28,
-                "top": 326,
-                "zoom": 0.553125
+                "file": "Notes/Embedded/AVR/references/AVR128DB28 Datasheet.pdf",
+                "page": 179,
+                "left": -105,
+                "top": 733,
+                "zoom": 1.25
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -82,7 +79,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "KV",
+                "query": "laplace",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -130,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Embedded/AVR/presentations/Lecture 7.pdf",
+                "file": "Notes/Embedded/AVR/references/AVR128DB28 Datasheet.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Embedded/AVR/presentations/Lecture 7.pdf",
+                "file": "Notes/Embedded/AVR/references/AVR128DB28 Datasheet.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Embedded/AVR/presentations/Lecture 7.pdf"
+                "file": "Notes/Embedded/AVR/references/AVR128DB28 Datasheet.pdf"
               }
             }
           },
@@ -186,7 +183,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -195,68 +193,66 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
       "switcher:Open quick switcher": false,
       "publish:Publish changes...": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "eba4e7f2f214894f",
+  "active": "a26291b0e95c4cde",
   "lastOpenFiles": [
-    "Notes/Embedded/AVR/Interrupts.md",
-    "Notes/Embedded/AVR/presentations/Lecture 7.pdf",
-    "Notes/Embedded/AVR/Peripheral Address Map.md",
+    "Notes/Embedded/AVR/references/AVR128DB28 Datasheet.pdf",
+    "Notes/Embedded/AVR/UART.md",
     "Notes/Embedded/AVR/IO Configuration.md",
+    "Notes/Embedded/AVR/Register Descriptions.md",
+    "Notes/Embedded/AVR/Peripheral Address Map.md",
     "Notes/Embedded/AVR/Timers.md",
-    "Notes/Embedded/AVR/presentations/Lec7 - AVRDX - Timers 2.pdf",
-    "Notes/Control Systems/Control System Engineering.pdf",
-    "Projects/Active/Fluid Dynamics/logs/Ongoing Log.md",
-    "Notes/Electrical/Brushless Motors.md",
-    "Projects/Active/SLAMBike/E-bikes.md",
-    "Projects/Active/SLAMBike/My bicycle.md",
-    "().md",
-    "Projects/Active/SLAMBike/Logs/1-23-24.md",
-    "Notes/Math/Linear Algebra/Determinants.md",
-    "Pasted image 20240923205832.png",
-    "Pasted image 20240923203627.png",
-    "Pasted image 20240923203302.png",
-    "Pasted image 20240923193143.png",
-    "Notes/Programming/Languages/Rust/Embedded.md",
-    "Notes/Math/Linear Algebra/Cramer's Rule.md",
-    "Notes/Control Systems/Chapter 3 - Modeling in the Time  Domain.md",
-    "Notes/Control Systems/Linearization.md",
-    "Projects/Active/Senior Design/Papers/highlights/Towards Intelligent Cooperative Robotics.md",
-    "Notes/Control Systems/Rotational System Transfer Functions.md",
-    "Chapter 3 - Modeling in the Time  Domain.md",
-    "Pasted image 20240923144434.png",
-    "Rotational System Transfer Functions.md",
     "Notes/Embedded/AVR/presentations/Lecture 6.pdf",
-    "Projects/Active/hacklab/Inventory Manager/Baremetal_Interfacing_Guide.pdf",
-    "Projects/Active/hacklab/Inventory Manager/ThingMagic-MercuryAPI-ProgrammerGuide-1_37_2-1.pdf",
-    "Projects/Active/hacklab/Inventory Manager/M6E-NANO Datasheet.pdf",
-    "Projects/Active/hacklab/Inventory Manager/ThingMagic-MercuryAPI-Programmer-Guide-1_37_3.pdf",
-    "Projects/Inactive/Distributed Quantum Computing/Code flow.canvas",
-    "Projects/Inactive/MakeHaven/images/Pasted image 20230713200437.png",
-    "Projects/Inactive/DIY quantum computer/Resources.md",
-    "Projects/Active/hacklab/Meeting 1-26-24.md",
-    "Projects/Inactive/Learn WebGPU/images/Pasted image 20230702113311.png",
-    "Projects/Set aside/portfolio/responsive site.gif",
-    "Projects/Inactive/Job Scraper/images/Pasted image 20230814140714.png",
-    "Projects/Inactive/Distributed Quantum Computing/presentations/reading group 7-20-23/cnot_diagram.png",
-    "Projects/Inactive/Distributed Quantum Computing/logs/7-11-23.md",
-    "Projects/Set aside/portfolio/deployment.md",
-    "Projects/Inactive/Robot arm/3-12-24.md",
-    "Projects/Active/hacklab/Inventory Manager/logs/4-12-24.md",
-    "Notes/Embedded/AVR/references/AVR128DB2848 Datasheet.pdf",
+    "Notes/Math/Linear Algebra/Determinants.md",
+    "Pasted image 20240923144434.png",
+    "Notes/Math/Linear Algebra/Cramer's Rule.md",
     "Projects/Active/Senior Design/Papers/Towards Intelligent Cooperative Robotics.pdf",
-    "Projects/Inactive/Makerspace/Institute for Engineering Success.canvas",
+    "Projects/Active/Senior Design/Papers/highlights/Towards Intelligent Cooperative Robotics.md",
+    "Projects/Active/Fluid Dynamics/logs/Ongoing Log.md",
+    "Notes/Math/Calculus.md",
+    "Notes/Control Systems/Control System Engineering.pdf",
+    "Notes/Control Systems/Linearization.md",
+    "Rotational System Transfer Functions.md",
+    "Chapter 3 - Modeling in the Time  Domain.md",
+    "Notes/Control Systems/Control Systems.md",
+    "Notes/Control Systems/Rotational System Transfer Functions.md",
+    "Notes/Control Systems/Chapter 3 - Modeling in the Time  Domain.md",
+    "Notes/Embedded/AVR/references/AVR128DB2848 Datasheet.pdf",
+    "Notes/Embedded/AVR/Interrupts.md",
+    "Notes/Embedded/AVR/presentations/Lecture 5.pdf",
+    "Notes/Programming/Tools/Git/Git.md",
+    "Notes/Embedded/AVR/references/AVR128DB28-32-48-64-DataSheet-DS40002247-1.pdf",
+    "Notes/Embedded/AVR/presentations/Lecture 4.pdf",
+    "Projects/hacklab/planning/General Body Meeting 9-18-24.md",
+    "Notes/Electrical/PCB Design.md",
+    "Notes/Control Systems/ece3411/Rotational System Transfer Functions.md",
+    "NUCLEO-L476RG.md",
+    "Notes/Embedded/AVR/presentations/Lecture 2.pdf",
+    "Notes/Embedded/AVR/presentations/Lecture 3.pdf",
+    "Notes/Math/Linear Algebra/Cramers Rule.md",
+    "Notes/Embedded/AVR/Digital Input.md",
+    "Notes/Embedded/AVR/references/Datasheet Notes.md",
+    "Pasted image 20240815195416.png",
+    "Pasted image 20240815203600.png",
+    "Pasted image 20240911143627.png",
+    "Pasted image 20240911144912.png",
+    "Pasted image 20240911145204.png",
+    "Projects/Fluid Dynamics/images/radkoderiv.png",
+    "Projects/Fluid Dynamics/images/Pasted image 20240822145518.png",
+    "Projects/Fluid Dynamics/images/Pasted image 20240822145003.png",
+    "Projects/Fluid Dynamics/images/Pasted image 20240822141901.png",
     "Projects/Distributed Quantum Computing/Code flow.canvas",
     "Projects/Distributed Quantum Computing/Untitled.canvas",
     "Projects/Makerspace/Institute for Engineering Success.canvas"

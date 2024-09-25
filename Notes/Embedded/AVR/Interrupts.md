@@ -34,6 +34,39 @@ Interrupt vector table - indicates where the ISR is located in in memory
 ![[Lecture 5.pdf#page=9]]
 
 
+# External interrupts
+- Every port pin can be configured to cause an interrupt when it changes 17.5.16 [[IO Configuration]]
+- There is only *one* interrupt for the entire port. Need to check pins individually to see which one caused it
+- You can cause software interrupts by writing to the port
+```c
+PORTA.PIN2CTRL |= PORT_ISC_RISING_gc; 
+PORTA.DIRSET = PIN2_bm; 
+PORTA.OUTSET = PIN2_bm; // writing this this pin will cause an interrupt!
+
+ISR(PORTA_PORT_vect) { 
+	if (PORTA.INTFLAGS & PIN2_bm) { // atomic code 
+		PORTA.INTFLAGS |= PIN2_bm; // clear flag 
+	}
+}
+```
+
+## Debouncing
+- You can use a timer to count 
+- Wait for the button press with an interrupt
+- Start the 10ms timer. When it gets to 0 execute the button push
+
+```c
+#define DEBOUNCE_TIME 10 
+#define BTN (!(VPORTB.IN & PIN2_bm)) 
+
+ISR(TIMER0_COMPA_vect) { 
+	if (debounce_timerCount > 0)
+		debounce_timerCount--; 
+		
+	if (debounce_timerCount == 0 && BTN) { btnPushed = true; } } } ISR(PORTB_PORT_vect) { if (PORTB.INTFLAGS & PIN2_bm) { PORTB.INTFLAGS |= PIN2_bm; // clear flag if (debounce_timerCount == 0) { debounce_timerCount = DEBOUNCE_TIME; } } }
+```
+
+
 # Common issues
 [[Notes/Embedded/STM32/Interrupts|Interrupts]]
 ## Flags and `volatile`

@@ -40,6 +40,40 @@ $$
 - `SINGLE` refers to a single timer. Some timers (Timer A) can be split into multiple timers
 - The split timers are configured together but operate independently
 
+## CMP0
+- Can use `CMP0` to do matches
+- Can generate square wave when in `TCA_SINGLE_WGMODE_FREQ_gc` mode
+	- `CMP0` output goes to `WO0` (waveform output 0) which writes to `PORTA0`
+	- `PORTA0` is equal to an output of 1 every other match trigger
+- `TCA0.CMPn` outputs to `PORTAn`
+	- Can reroute signals to other ports with the `PORTMUX.TCAROUTEA` register
+$$
+f_{WO 0} = \frac{f_{\text{clk-period}}}{2N \cdot (1+CMP)}
+$$
+ex: 
+
+$$
+f_{WO 0} = \frac{f_{\text{clk-period}}}{2N \cdot (1+CMP)} = \frac{16 Mhz}{2 (64) (1+249)}
+$$
+
+### Code example
+```c
+ // 500Hz Timer TCA0 assuming F_CPU = 16MHz 
+ 
+void InitTCA0(void) { TCA0.SINGLE.CTRLB = TCA_SINGLE_WGMODE_FRQ_gc;
+	// Normal mode 
+	TCA0.SINGLE.CMP0 = 249; // Set number of ticks for period /
+	TCA0.SINGLE.INTCTRL = TCA_SINGLE_CMP0_bm; // Enable TCA0 CMP0 ISR
+	TCA0.SINGLE.CTRLB |= TCA_SINGLE_CMP0EN_bm; // Enable waveform output // Set Prescalar to 64 & enable timer. Each tick is 4us 
+	TCA0.SINGLE.CTRLA |= (TCA_SINGLE_CLKSEL_DIV64_gc |TCA_SINGLE_ENABLE_bm); 
+	PORTA.DIRSET = PIN0_bm; // enable waveform output 
+
+	// Remap PORT				 
+	 PORTMUX.TCAROUTEA |= PORTMUX_TCA0_PORTD_gc; // PORTD.DIRSET = PIN0_bm; // enable waveform output
+
+}
+```
+
 # Patterns
 
 # Common issues

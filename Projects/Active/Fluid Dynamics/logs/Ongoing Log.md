@@ -1,7 +1,14 @@
+# 9/24/24
+- [ ] Save arbitrary debug data into log files
+- [ ] Save integration data for each cell entry
+
+I got it to save a cell into a file. The problem is that the cell can't take nested cells. So there goes the plan of shoving everything into a cell. I'm going to try and array of structures next.
+The problem is that the structure must be preallocated. Why is this so annoying.
 # 9/21/24
 - Almost finished making the debug feature working with matlab `cell`
 - Final issue is that `save` cannot be called in parfor unless matlab knows exactly what variable is being saved. A separate function is necessary
 https://www.mathworks.com/matlabcentral/answers/135285-how-do-i-use-save-with-a-parfor-loop-using-parallel-computing-toolbox
+https://www.mathworks.com/help/parallel-computing/save-variables-in-parfor-loop.html
 
 # 9/20/24
 - I began developing the feature to save debug data for each `x, y` in `growthRateHeatmap`. 
