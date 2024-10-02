@@ -1,3 +1,9 @@
+re# 9/28/24
+- [ ] Plot quadratic norm based on debug data for these points:
+	- [ ] Look at center point $m_{0}=k=0$ on ODE45 and 
+	- [ ] Look at point that is stable on convex $m_{0}=0.8, k=0.3$ but unstable on ode45
+- [x] Push changes to github
+- [ ] Submit ode45 job to hpc with second half linear fit 
 # 9/24/24
 - [ ] Save arbitrary debug data into log files
 - [ ] Save integration data for each cell entry

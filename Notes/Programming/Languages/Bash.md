@@ -33,3 +33,18 @@ trap "echo The .env file was not defined; exit" SIGINT # defines error trap if .
 source .env # executes .env script and variables remain after completion
 trap '-' SIGINT # resets error trap
 ```
+
+# Resources
+[[Notes/Resources|Resources]]
+Advanced Bash-Scripting Guide
+A complete guide to shell scripting, using Bash Mendel Cooper - Brindlesoft
+
+This tutorial assumes no previous knowledge of scripting or programming, but
+progresses rapidly toward an intermediate/advanced level of instruction
+(...all the while sneaking in little snippets of UNIX wisdom and lore). It
+serves as a textbook, a manual for self-study, and a reference and source
+of knowledge on shell scripting techniques. The exercises and heavily-
+commented examples invite active reader participation, under the premise that
+the only way to really learn scripting is to write scripts.
+
+The guide is availabe at http://tldp.org/LDP/abs/html/

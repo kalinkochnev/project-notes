@@ -41,6 +41,9 @@ Universal Sychronous/Asynchronous Receiver Transeiver (USART)
 	- Majority vote on the middle 3 samples determines value
 - The sender and receiver may be using different clocks. The higher sample rate allows to account for difference in clock speeds within 2%
 
+# Printing floats
+![[Lecture 8.pdf#page=30|Lecture 8, p.30]]
+
 # Examples
 ## Initialization
 ## Transmit

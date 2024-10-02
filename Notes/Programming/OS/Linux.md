@@ -120,3 +120,12 @@ sudo netstat -tunlp
 - `-n` show numerical addresses instead of resolving hosts
 - `-l` show only listening prots
 - `-p` show the PID/name of the process
+
+# Append text to end of file
+https://stackoverflow.com/questions/17701989/how-do-i-append-text-to-a-file
+- Use `echo "thing here" >> file.txt`
+# `~/.bash_profile` location ubuntu
+
+https://askubuntu.com/q/510709
+[[Guix]], [[Bash]]
+- Ubuntu uses `~/.profile`
