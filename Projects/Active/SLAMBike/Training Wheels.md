@@ -1,0 +1,3 @@
+- This may be a problem on my bicycle because it has a quick release device on the back axle
+- I can maybe find an axle replacement https://www.amazon.com/CyclingDeal-Trainer-Quick-Release-Skewer/dp/B08KPX5ZJB/ref=sr_1_9?crid=E2CRP5PU8VS7&dib=eyJ2IjoiMSJ9.6SkhmJ1jUOLSbB_L5FYCjGgc76gFIW9uASR5AHwA3BuQqWjysP_gAwUAjQzSoRPsSQm0avFfSY3OF_LAne23VSwRqKUV3UZhAKuVsKpkjbqo-BtYVX2oWMyBlkishaNF3PD-UqxeLLbNGpRH05IS2PhJIDVZ0xfCCVtCshi8GQVJJfVhE5PrQK8vZyBPbYdAan6t0gXX-YY_A_PXQF8nDSJ7ESXyCoQ4kjZE8Ph5ey9tx1455j7o-vOw2Mm31gJm4TbrqulBAr_ckc9fc5Ob1h_rWtqQs30tHwe6V_CvARk.4jiPyop-4ELuMZWPsvTMbNFG6U0SzoVmPl1_fLIa2NU&dib_tag=se&keywords=adult%2Btraining%2Bwheels+quick+release&qid=1728312158&sprefix=adult%2Btraining%2Bwheels+quick+release%2Caps%2C82&sr=8-9
+- 

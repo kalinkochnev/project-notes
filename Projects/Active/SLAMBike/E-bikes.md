@@ -1,12 +1,18 @@
 https://electricbike.com/forum/forum/builds/ebike-building-directions
+# Resources
+- Grin Technologies has tons of instructions
+[E-bike motor/controller parameter simulator](https://ebikes.ca/tools/simulator.html)
+[Bike compatibility](https://ebikes.ca/learn/bike-compatibility.html)
+[Demo installation of front hub motor](https://youtu.be/t9jvgsOT6jo?si=STUkzketXkMYJk6p)
+[Makezine conversion guide](https://makezine.com/projects/convert-any-bike-to-electric-with-an-easy-front-wheel-motor-kit/)
+[Hub motor options](https://ebikes.ca/getting-started/hub-motor-options.html)
+[Grin CAD models and manual](https://ebikes.ca/learn/documents.html)
+[Pros of hub motors](https://ebikes.ca/learn/why-hub-motors-are-awesome.html)
 
 
-# DIY ebike
-https://ebikes.ca/getting-started/start-here.html
+[Anatomy of a bike](https://www.twowheeledwanderer.com/posts/bike-anatomy/)
 
-# Ebike parts explained
-https://ebikes.ca/getting-started/ebikes-parts-explained.html
-- Consider downtube vs rear rack battery
+
 
 ## Motors
 - Usually BLDC motors (see [[Brushless Motors]])
