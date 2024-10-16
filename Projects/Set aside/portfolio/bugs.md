@@ -5,6 +5,7 @@
 	- Blogs
 	- Logs
 	- Journeys
+	- Slides on a page
 - h1-h4 for content is messed up (wrong font)
 - Weird spacing in page
 ![[Pasted image 20230215225107.png]]

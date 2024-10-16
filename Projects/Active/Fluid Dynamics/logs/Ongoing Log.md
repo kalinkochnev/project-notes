@@ -1,9 +1,33 @@
-re# 9/28/24
-- [ ] Plot quadratic norm based on debug data for these points:
-	- [ ] Look at center point $m_{0}=k=0$ on ODE45 and 
-	- [ ] Look at point that is stable on convex $m_{0}=0.8, k=0.3$ but unstable on ode45
+
+# 10/11/24
+- [ ] Submit convex optimization jobs to HPC
+	- [ ] 500 time steps
+	- [ ] 1000 time steps
+	- [ ] 2000 time steps
+- [ ] Try second order approximation 
+
+- We found that changing the number of samples for convex optimization can significantly change the reported growth rate
+	- More samples = more accurate
+
+- We can try using a higher order approximation of $\dot{P}$
+- We can also try a routine where we test if stable for a large number of $t$ values since it is cheap. And then decrease the number of samples to figure out what the growth rate actually is. 
+	- Can also try doing binary search to find best number of samples quickly
+# 9/28/24
+- [x] Plot quadratic norm based on debug data for these points:
+	- [x] Look at center point $m_{0}=k=0$ on ODE45 and 
+	- [x] Look at point that is stable on convex $m_{0}=0.8, k=0.3$ but unstable on ode45
 - [x] Push changes to github
 - [ ] Submit ode45 job to hpc with second half linear fit 
+
+This picture is of  $m_{0}=0.8, k=0.3$ . This should be stable according to convex optimization.
+![[Pasted image 20241010144347.png]]
+
+This is a picture of $m_{0}=0.01, k=0.01$. This should be unstable according to convex optimization.
+- Having exactly (0, 0) crashed the program. Maybe not full rank or something
+![[Pasted image 20241010151050.png]]
+
+- Increasing the number of periods helped.
+- In the code there may be some confusion between `log10` and `log`. May need to check
 # 9/24/24
 - [ ] Save arbitrary debug data into log files
 - [ ] Save integration data for each cell entry

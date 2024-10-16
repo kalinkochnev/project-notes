@@ -8,17 +8,27 @@ https://electricbike.com/forum/forum/builds/ebike-building-directions
 [Hub motor options](https://ebikes.ca/getting-started/hub-motor-options.html)
 [Grin CAD models and manual](https://ebikes.ca/learn/documents.html)
 [Pros of hub motors](https://ebikes.ca/learn/why-hub-motors-are-awesome.html)
+[Cycle Analyst 3.0](https://ebikes.ca/product-info/grin-products/cycle-analyst-3.html#software-setup-utility)
+# Freewheel vs Cassette Freehub
+https://ebikes.ca/learn/bike-compatibility.html#FreewheelvsCassetteFreehub
+https://forums.electricbikereview.com/threads/thoughts-on-freewheel-vs-cassette.27441/
 
 
-[Anatomy of a bike](https://www.twowheeledwanderer.com/posts/bike-anatomy/)
+# Wheel
+[How to lace a hub motor](https://youtu.be/3OialWggZJo?si=p4umNzjqOcIgQsIb)
 
 
-
-## Motors
+# Motors
 - Usually BLDC motors (see [[Brushless Motors]])
 - They also come with a hall effect sensor usually
+
+## Options
+[Bafang g310/g311](https://ebikes.ca/product-info/grin-kits/bafang-g310-g311.html)
+
 ## Motor controller
 [[Brushless Motors#Motor controllers]]
+[Grin Baserunner motor controller](https://ebikes.ca/product-info/grin-products/baserunner.html)
+
 
 # Throttles
 - All throttles use hall sensors and a magnet

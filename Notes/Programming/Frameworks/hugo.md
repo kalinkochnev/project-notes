@@ -14,3 +14,7 @@ https://discourse.gohugo.io/t/what-am-i-not-getting-about-resources-get/33517
 `:'<,'>s/\v\{\{([^\]]*)\}\}/{{<slide>}} & {{<\/slide>}}/  `
 
 # Create new content from archetypes
+```
+hugo new <path to content and file name> <archetype> posts/my-first-post.md
+
+```
