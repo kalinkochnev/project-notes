@@ -1,3 +1,8 @@
+# My thoughts
+- It may not give that much of a benefit with few agents compared to round robin as see in [[#7.3.4 Analysis]]
+- In this case we are not trying to reach a single goal but a multitude of goals (as given by the slicer)
+
+
 # Intro
 > [!PDF|yellow] [[rrts.pdf#page=1&selection=70,0,73,29&color=yellow|rrts, p.385]]
 > > As autonomous systems are deployed in increasingly complex scenarios, it is essential for a team of agents to be able to work in parallel and perform far more complicated tasks than an agent operating alone
@@ -117,24 +122,44 @@
 > [!PDF|general] [[rrts.pdf#page=5&selection=202,0,219,22&color=general|rrts, p.389]]
 > > The lazy check mimics the tree expansion process, but instead of generating new nodes, it re-simulates the agent’s trajectory through the nodes defining p∗. If the re-simulated state ˆx(t + k) violates a constraint, the path is pruned beyond the last feasible node
 
+# 4 Decentralized coordinate planning
+> [!PDF|yellow] [[rrts.pdf#page=6&selection=11,0,15,30&color=yellow|rrts, p.390]]
+> > The approach taken here instead relies on a measure of Potential Path Improvement (PPI) that reflects an agent’s incentive to replan. The PPI is the potential improvement in its own path cost that an agent expects to see if allowed to update its plan next.
 
+> [!PDF|yellow] [[rrts.pdf#page=6&selection=21,10,24,5&color=yellow|rrts, p.390]]
+> > Rather than iterating through a list of agents, a token is used to identify which agent is allowed to update its plan at each planning iteration.
 
+> [!PDF|important] [[rrts.pdf#page=6&selection=25,0,27,4&color=important|rrts, p.390]]
+> > The idea of token-passing for mutual exclusion and access control is widespread in distributed computer systems
 
-
-
-
-
-
-
-
-
+> [!PDF|yellow] [[rrts.pdf#page=6&selection=43,43,50,56&color=yellow|rrts, p.390]]
+> > agents without the token compute their PPI and broadcast these values as bids to be the next token holder. When the current token holder is finished replanning, it passes the token to the agent with the best bid, i.e., the greatest PPI. If there is a tie, one of the agents is selected at random. This effectively produces a dynamic planning order where agents that may benefit the most from replanning are able to do so sooner
 
 
 > [!PDF|general] [[rrts.pdf#page=5&selection=407,0,413,58&color=general|rrts, p.389]]
 > > Agents 1 and 2 begin with feasible plans but find alternate plans that appear to be safe given their current knowledge of the other agent. Since this is fully asynchronous, the agents can update their plans at any time. However, if both update at the same time, the new paths are not guaranteed to be safe since the constraints imposed while selecting the paths do not match the constraints that exist when the agents begin
 
 
+### 4.1.1 PPI from RRT
+> [!PDF|yellow] [[rrts.pdf#page=6&selection=63,0,81,0&color=yellow|rrts, p.390]]
+> > Computing the PPI requires the agent to compare costs between the current plan and a new plan, i.e., PPI = cost(pcurrent) − cost(pnew)
+
+> [!PDF|yellow] [[rrts.pdf#page=6&selection=91,8,92,58&color=yellow|rrts, p.390]]
+> >  the tree of feasible paths maintained in the CLRRT algorithm can be used to compute the PPI very quickly.
+
+> [!PDF|yellow] [[rrts.pdf#page=6&selection=94,7,96,3&color=yellow|rrts, p.390]]
+> > the current token-holder) does not need to compute its PPI. So it simply selects the best path in its tree (as in CLRRT
+
+> [!PDF|important] [[rrts.pdf#page=6&selection=96,35,101,22&color=important|rrts, p.390]]
+> > gents without the token continue executing their previously selected plans, but also continue to grow their own trees in order to compute their PPI. By continuing to grow their trees, it is easy for agents to identify new, lower-cost paths by simply searching the leaf nodes of the tree
+
+> [!PDF|yellow] [[rrts.pdf#page=6&selection=138,0,141,22&color=yellow|rrts, p.390]]
+> > For example, if the best path in the tree has a much lower cost than the path the agent is currently taking, the PPI would be large and it would be beneficial to replan soon to select the better path
+
+
+
 # 5 Decentralized multi-agent RRT
+## Assumptions
 > [!PDF|general] [[rrts.pdf#page=7&selection=9,27,19,42&color=general|rrts, p.391]]
 > > The individual component handles the path planning, while the interaction component handles all information received from other agents
 
@@ -152,4 +177,40 @@
 
 > [!PDF|general] [[rrts.pdf#page=7&selection=61,1,66,17&color=general|rrts, p.391]]
 > > Inter-agent constraints: Finally, the set of constraints imposed between agents, such as collision avoidance or rendezvous requirements, are assumed to be symmetric between agent pairs
+
+## 5.2 Individual Component
+> [!PDF|yellow] [[rrts.pdf#page=7&color=yellow|rrts, p.391]]
+> > 5.2 Individual component
+> 
+> 
+1) Agent is initialized with a feasible path
+2) One agent is chosen to be token holder
+3) Each agent grows tree of feasible paths and at the end of planning picks the best path $p_{k}^{*}$
+4) Merit strategy determines if the agent will update its path to $p_{k}^{*}$ and pass the token to someone else or if it will bit **<-- i don't really understand this yet**
+5) If agent updates plan, it broadcasts the waypoints to other agents
+## 5.3 Interaction Component
+
+> [!PDF|yellow] [[rrts.pdf#page=7&selection=358,0,374,42&color=yellow|rrts, p.391]]
+> > Communication between agents involves two different message types. The first has a list of waypoints corresponding to an updated plan and the name of the token winner, and it is sent after the current token holder updates its plan. The second message is just the PPI bid and is sent when an agent without the token finds a better path
+
+> [!PDF|yellow] [[rrts.pdf#page=8&selection=112,0,125,11&color=yellow|rrts, p.392]]
+> > This trajectory information can then be used in the CLRRT’s feasibility checks to ensure the path satisfies all interagent constraints. When the token winner receives the waypoints and winner message, it becomes the token holder (line 6) and can select a new plan as soon as it updates its constraints
+
+# 6 Cooperative DMA-RRT
+> [!PDF|yellow] [[rrts.pdf#page=9&selection=356,0,360,10&color=yellow|rrts, p.393]]
+> > Although the DMA-RRT algorithm implements a coordination strategy, each agent only aims to minimize its own path cost when selecting a path from the tree. However, this locally greedy approach does not necessarily minimize the global cos
+
+> [!PDF|yellow] [[rrts.pdf#page=9&selection=365,7,369,36&color=yellow|rrts, p.393]]
+> > or example, consider a cluttered environment with narrow passages between obstacles. It is then possible for agents to select paths that are conflict-free but obstruct these passages, thus preventing multiple agents from making additional progress toward their goals
+
+> [!PDF|yellow] [[rrts.pdf#page=9&selection=383,0,386,23&color=yellow|rrts, p.393]]
+> > This section introduces a cooperation strategy that allows an agent to modify its own path as well as the path of another agent in order to minimize the combined path cost and thus reduce the global cost.
+
+> [!PDF|yellow] [[rrts.pdf#page=9&selection=391,36,401,19&color=yellow|rrts, p.393]]
+> > he resulting Cooperative DMA-RRT algorithm introduces emergency stop nodes along each agent’s path where the agent could safely terminate the path if asked to by another agent. The decision to terminate another agent’s path is based on a cost comparison between teammates and enables the team to avoid costly deadlock scenarios.
+
+# 7 Simulation
+## 7.3.4 Analysis
+> [!PDF|yellow] [[rrts.pdf#page=15&selection=69,0,76,32&color=yellow|rrts, p.399]]
+> > For a team of only four agents, the merit-based token passing strategy is not expected to provide as significant an improvement in performance, in general (except in cases where, for example, one agent has a much more challenging route to plan). This can be seen from a comparison of Fig. 8(a) and Fig. 8(b). Even with the dynamic planning order, there are so few agents that each receives the token almost as regularly as in the round-robin case
 

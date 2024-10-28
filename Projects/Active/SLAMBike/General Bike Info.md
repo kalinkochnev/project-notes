@@ -22,3 +22,6 @@ https://youtu.be/QOzjiDwvIss?si=JXEkwowbNVn3aAx7
 https://www.sheldonbrown.com/frame-spacing.html
 https://www.reddit.com/r/bikewrench/comments/1w4zp2/comment/cezbaat/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
 https://electricbike.com/forum/forum/ask-lunacycle/ask-a-question/50413-135-mm-rear-hub-motor-for-120-mm-dropout
+
+# Bottom bracket
+![[Pasted image 20241024152150.png]]

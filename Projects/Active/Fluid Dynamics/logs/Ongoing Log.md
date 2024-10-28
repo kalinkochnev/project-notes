@@ -1,3 +1,12 @@
+# 10/23/24
+
+## Today's plans
+- [ ] Submit convex optimization jobs to HPC
+	- [ ] 500 time steps
+	- [ ] 1000 time steps
+	- [ ] 2000 time steps
+
+
 
 # 10/11/24
 - [ ] Submit convex optimization jobs to HPC
@@ -17,7 +26,7 @@
 	- [x] Look at center point $m_{0}=k=0$ on ODE45 and 
 	- [x] Look at point that is stable on convex $m_{0}=0.8, k=0.3$ but unstable on ode45
 - [x] Push changes to github
-- [ ] Submit ode45 job to hpc with second half linear fit 
+- [x] Submit ode45 job to hpc with second half linear fit 
 
 This picture is of  $m_{0}=0.8, k=0.3$ . This should be stable according to convex optimization.
 ![[Pasted image 20241010144347.png]]

@@ -1,1 +1,2 @@
 - reframe things you are interested in. Fine right perspective to find interest
+- drone that searches for empty parking spots and protects you

@@ -4,39 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "d21739fb6f462072",
+        "id": "6c12e0506c2f7f6e",
         "type": "tabs",
         "children": [
           {
-            "id": "c40029fd8d41fa01",
+            "id": "38d3225ed89ccf74",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Projects/Active/Fluid Dynamics/logs/Ongoing Log.md",
-                "mode": "source",
-                "source": false
+                "file": "Projects/Active/SLAMBike/xavier_agx_user_guide.pdf",
+                "page": 10,
+                "left": -11,
+                "top": 29,
+                "zoom": 1.3394607843137254
               },
-              "icon": "lucide-file",
-              "title": "Ongoing Log"
+              "icon": "lucide-file-text",
+              "title": "xavier_agx_user_guide"
             }
           },
           {
-            "id": "3288a7db37fa6103",
+            "id": "1a18ce9b05583987",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Projects/Active/SLAMBike/Logs/10-24-24.md",
-                "mode": "source",
-                "source": false
+                "file": "Notes/Electrical/Wire Gauge Reference.pdf",
+                "page": 2,
+                "left": -11,
+                "top": 800,
+                "zoom": 1.3394607843137256
               },
-              "icon": "lucide-file",
-              "title": "10-24-24"
+              "icon": "lucide-file-text",
+              "title": "Wire Gauge Reference"
             }
           },
           {
-            "id": "9fca27b4a6ae52bc",
+            "id": "82a4181ab715205b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -50,81 +54,21 @@
             }
           },
           {
-            "id": "5cb708e4970b2267",
+            "id": "88b024d132e705e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Active/SLAMBike/General Bike Info.md",
+                "file": "Notes/Electrical/Brushless Motors.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "General Bike Info"
-            }
-          },
-          {
-            "id": "6e5717735307a3bf",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "8bc3b789d24c6428",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Programming/OS/HPC.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "HPC"
-            }
-          },
-          {
-            "id": "2e455f5450b76c34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Embedded/AVR/Serial Peripheral Interface (SPI).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Serial Peripheral Interface (SPI)"
+              "title": "Brushless Motors"
             }
           }
         ],
-        "currentTab": 6
-      },
-      {
-        "id": "4b13b5ee4414e91d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "78abf745d2c5b3e7",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Notes/Embedded/AVR/presentations/Lecture 12 - SPI.pdf",
-                "page": 4,
-                "left": -37,
-                "top": 195,
-                "zoom": 0.40078125000000003
-              },
-              "icon": "lucide-file-text",
-              "title": "Lecture 12 - SPI"
-            }
-          }
-        ]
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -143,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "guix",
+                "query": "wire",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -176,12 +120,11 @@
               "title": "Files"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 372.5026054382324
+    "width": 356.5
   },
   "right": {
     "id": "b5b9ba56968b115d",
@@ -197,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Active/Senior Design/Ongoing Log.md",
+                "file": "Projects/Active/SLAMBike/Logs/10-16-24.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -207,7 +150,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Ongoing Log"
+              "title": "Backlinks for 10-16-24"
             }
           },
           {
@@ -216,12 +159,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Active/Senior Design/Ongoing Log.md",
+                "file": "Projects/Active/SLAMBike/Logs/10-16-24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Ongoing Log"
+              "title": "Outgoing links from 10-16-24"
             }
           },
           {
@@ -243,10 +186,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Active/Senior Design/Ongoing Log.md"
+                "file": "Projects/Active/SLAMBike/Logs/10-16-24.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Ongoing Log"
+              "title": "Outline of 10-16-24"
             }
           },
           {
@@ -263,8 +206,7 @@
               "title": "All properties"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -286,39 +228,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "78abf745d2c5b3e7",
+  "active": "82a4181ab715205b",
   "lastOpenFiles": [
-    "Notes/Embedded/AVR/Serial Peripheral Interface (SPI).md",
-    "Notes/Embedded/AVR/presentations/Lecture 12 - SPI.pdf",
-    "Notes/Control Systems/Control System Engineering.pdf",
-    "Projects/Active/SLAMBike/Logs/10-24-24.md",
-    "Notes/Programming/OS/HPC.md",
-    "Projects/Active/Fluid Dynamics/logs/Ongoing Log.md",
-    "Projects/Active/SLAMBike/General Bike Info.md",
-    "Pasted image 20241024152150.png",
-    "Projects/Active/SLAMBike/Logs/10-16-24.md",
-    "Projects/Active/SLAMBike/Logs/10-22-24.md",
-    "Projects/Active/SLAMBike/Logs/10-17-24.md",
-    "Projects/Active/SLAMBike/Logs/10-18-24.md",
-    "Projects/Active/Senior Design/Papers/Motion Planning/RRT literature review.pdf",
-    "Projects/Active/Senior Design/Ongoing Log.md",
-    "Research plan.canvas",
-    "Projects/Active/Senior Design/Papers/Motion Planning/zhao2021.pdf",
-    "Projects/Active/Senior Design/Papers/Motion Planning/Towards Intelligent Cooperative Robotics.pdf",
-    "Projects/Active/Senior Design/Papers/Motion Planning/rrts.pdf",
-    "Projects/Active/Senior Design/Papers/Motion Planning/postureoptimization.pdf",
-    "Projects/Active/Senior Design/Papers/Motion Planning/planningredundantnoik.pdf",
-    "Projects/Active/Senior Design/Papers/postureoptimization.pdf",
-    "Projects/Active/Senior Design/Papers/Towards Intelligent Cooperative Robotics.pdf",
-    "Pasted image 20241017133113.png",
-    "Projects/Active/Senior Design/Papers/highlights/Randomly Exploring Random trees.md",
-    "Projects/Active/Senior Design/Papers/highlights/Towards Intelligent Cooperative Robotics.md",
-    "Projects/Active/Senior Design/Papers/Untitled.md",
-    "Notes/Control Systems/Chapter 6.md",
-    "Pasted image 20241016192457.png",
-    "Pasted image 20241016192654.png",
     "Pasted image 20241016193534.png",
+    "Notes/Electrical/Brushless Motors.md",
+    "Projects/Active/SLAMBike/Motors & Controllers.md",
+    "Projects/Active/SLAMBike/Logs/10-16-24.md",
+    "Pasted image 20241016192654.png",
+    "Pasted image 20241016192457.png",
+    "Projects/Active/SLAMBike/xavier_agx_user_guide.pdf",
+    "Notes/Electrical/Wire Gauge Reference.pdf",
+    "Projects/Active/Senior Design/Ongoing Log.md",
+    "Projects/Active/Senior Design/Papers/Untitled.md",
+    "Projects/Active/Senior Design/Papers/highlights/Randomly Exploring Random trees.md",
+    "Projects/Active/Senior Design/Papers/rrts.pdf",
+    "Projects/Active/Senior Design/Papers/Motion Planning/RRT literature review.pdf",
+    "Projects/Active/Senior Design/Papers/highlights/Towards Intelligent Cooperative Robotics.md",
+    "Notes/Control Systems/Chapter 6.md",
+    "Notes/Control Systems/routh.pdf",
+    "Notes/Control Systems/Control System Engineering.pdf",
+    "Projects/Active/Senior Design/Papers/Motion Planning/Additive manufacturing collaboration.pdf",
+    "Projects/Active/Senior Design/Papers/Motion Planning/Spheres for Collision Detection.pdf",
+    "Projects/Active/Senior Design/Papers/Towards Intelligent Cooperative Robotics.pdf",
+    "Projects/Active/Senior Design/Papers/Motion Planning/Probabilistic roadmaps.pdf",
     "Projects/Active/SLAMBike/My bicycle.md",
+    "Projects/Active/SLAMBike/General Bike Info.md",
     "Handwritten Notes.pdf.md",
     "Notes/Math/Linear Algebra/Determinants.md",
     "Notes/Control Systems/Chapter 4.md",
@@ -329,11 +263,19 @@
     "Notes/Math/Linear Algebra/Cramer's Rule.md",
     "Notes/Programming/OS/Guix.md",
     "Projects/Active/SLAMBike/Logs/10-1-24.md",
+    "Projects/Active/SLAMBike/Logs/10-8-24.md",
+    "Projects/Active/SLAMBike/Logs/10-9-24.md",
     "Projects/Active/SLAMBike/Logs/images/time constant.png",
     "Project timeline.png",
+    "Projects/Active/SLAMBike/Logs/6-15-23.md",
+    "Projects/Set aside/portfolio/bugs.md",
+    "Notes/Programming/Frameworks/hugo.md",
     "Pasted image 20241011174554.png",
     "Pasted image 20241010151050.png",
     "Pasted image 20241010144347.png",
+    "Pasted image 20241006181722.png",
+    "Pasted image 20241008212804.png",
+    "Pasted image 20241008192520.png",
     "Projects/Inactive/Distributed Quantum Computing/Code flow.canvas",
     "Projects/Inactive/Makerspace/Institute for Engineering Success.canvas",
     "Projects/Distributed Quantum Computing/Code flow.canvas",
