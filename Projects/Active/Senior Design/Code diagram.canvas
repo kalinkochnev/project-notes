@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"d3257ea3f1e99145","type":"text","text":"# Task\nA sequence of RobotStates commands that have to be executed sequentially without interruption.\n\n**Fields**\n- states: `vector<RobotState>`","x":-923,"y":-519,"width":343,"height":301},
+		{"id":"183e1b7710c2e47f","type":"text","text":"# Simulation\nIt initializes simulation state (# robots, planner selected, )\n\n**Fields**\n- time: `float`\n- step_size: `float`\n\n**Methods**\n- `check_collisions()`\n\t- Check for collisions between all robots\n- `execute_step()`\n\t- Increment time and interpolate between two ","x":-923,"y":-180,"width":343,"height":480},
+		{"id":"cca99f55353f700e","type":"text","text":"# IRobot\n\n**Fields**:\n- toolpath: `ToolPath`\n- toolpath_offset_x: `float`\n- toolpath_offset_y: `float`\n- speed: `float`\n- motion_plan: `vector<RobotStateTime>`\n\n**Methods**:\n- `bool collides_with(Robot other)`\n- `decompose_tasks() -> vector<Task>`\n- `interp_task(Task task1, Task task2, float t)`\n\t- interpolate between two tasks\n- `visualize(float t, VisualizerConfig config)`\n\t- Based on configuration, show previous layer completion","x":-497,"y":-729,"width":397,"height":594},
+		{"id":"4c93b98d3ea171f4","type":"text","text":"# RobotState\nThe state the robot should be in\n\n**Fields**\n- x, y, z: `float`\n- extrusion: `float`","x":-883,"y":-1100,"width":343,"height":240},
+		{"id":"30839b7d772eeaae","x":-881,"y":-831,"width":340,"height":204,"type":"text","text":"# RobotStateTime\nTime dependent state.\n\n**Fields**\n- time: `float`\n\n"},
+		{"id":"e73fde21d2be307b","type":"text","text":"# IPlanner\nGenerates a motion plan from a bunch of robots and their tool paths.\n\n**Fields**:\n- robots: `vector<Robots>`\n\n**Methods**:\n- `plan()`\n\t- Gives each robot a plan to execute","x":-8,"y":-723,"width":392,"height":355},
+		{"id":"26ef6a04a31d7107","type":"text","text":"# Visualizer\nHandles user input events and modifies configuration related to what is displayed.\n\nShow previous layers, show current layer, show specific robots, show future trajectories, \n**Fields**\n- offset: `float`\n- scale: `float`\n\n**Methods**\n- `handle_input()`\n\n\n","x":-497,"y":-120,"width":397,"height":480},
+		{"id":"6eba686a8d015c65","x":60,"y":-1200,"width":510,"height":299,"type":"text","text":"# IVisualizeable\n\n**Methods**:\n- `visualize(float t, VisualizerConfig config)`\n\t- Visualize the inherrited class based on the configured visualization settings and the simulation time."},
+		{"id":"2772a9b63eaafb2f","x":-8,"y":-120,"width":365,"height":240,"type":"text","text":"# VisualizerConfig\n\n**Fields**:\n- enable_prev_layers: bool\n- indicate_curr_task: bool"},
+		{"id":"1d12f1430cd933e3","x":440,"y":-450,"width":851,"height":630,"type":"text","text":"```\ntoolpath = ToolPath()\n\nrobot1 = IRobot(toolpath, 0, 0);\nrobot2 = IRobot(toolpath, 10, 10);\n\nmotion_planner = IPlanner([robot1, robot2]);\nmotion_planner.plan();\n\nvisualizer_config = //...;\nvisualizer = Visualizer(visualizer_config)\n\n\n\nwhile(true) {\n\tvisualizer.handle_input();\n\tSimulation.execute_step();\n}\n```\n\nexecute_step():\n```\nfor (robot in robots) {\n\trobot.visualize(t, visualizer_config)\n}\n```"},
+		{"id":"be43e5983136e91f","type":"text","text":"# ToolPath\n**Fields**:\n- path: `vector<RobotState>`\n\n**Methods**\n- `ToolPath(gcode_file: string)`\n- `process_gcode(filepath) -> vector<RobotState>` \n","x":-472,"y":-1170,"width":372,"height":380}
+	],
+	"edges":[
+		{"id":"ae50b2315bb16005","fromNode":"4c93b98d3ea171f4","fromSide":"bottom","toNode":"30839b7d772eeaae","toSide":"top"},
+		{"id":"a07f837571047a97","fromNode":"6eba686a8d015c65","fromSide":"bottom","toNode":"cca99f55353f700e","toSide":"top"}
+	]
+}

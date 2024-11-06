@@ -1,3 +1,33 @@
+# 11/3/24
+[Task Constrained Motion Planning in Robot Joint Space](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4399305)
+[Novel Potential Guided Bidirectional RRT∗ With Direct Connection Strategy for Path Planning of Redundant Robot Manipulators in Joint Space](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10110311)
+# 11/2/24
+https://nbfigueroa.github.io/multi-arm-coordination/
+# 10/30/24
+## Today's plans
+- [ ] Display single layers
+	- [ ] Detect layer change in gcode
+	- [ ] Display lines that are not travels
+- [ ] Create robot state class
+	- [ ] Robot radius, Contains position, collision evaluation method, path plan for robot
+	- [ ] Create artificial delay for collision detection
+	- [ ] Create ring to indicate collision region around robot point
+- [ ] Display multiple robots on screen
+- [ ] Each robot should follow their own path plan
+- [ ] Robot stops if a collision would occur
+- [ ] Integrate IMGUI
+## Plans for next time
+- [ ] Display all lines in layer as gray
+- [ ] Display black line for paths already traversed
+- [ ] Draw travel lines as blue
+
+## Recap
+# Documents worked on
+
+# Notes
+# Questions
+
+
 
 # 10/22/24
 Idea: what if for every pair of arms we calculated the trajectories that would result in a collision instead of the trajectories that wouldn't .
