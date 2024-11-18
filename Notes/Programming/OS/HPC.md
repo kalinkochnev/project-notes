@@ -19,9 +19,6 @@
 1. Initial ssh brings you to login node
 2. Rsync files from laptop
 3. Configure a bash script with the required compute resources
-ex: 
-![[5-7-24 to 5-9-24#Notes]]
-
 ```
 #!/bin/bash
 #SBATCH --ntasks=1    # Job only requires 1 CPU core
@@ -127,6 +124,15 @@ slurm-279934.out
 Hello, World
 ```
 
-
-
-# SLURM
+## Location of jobs
+```
+WORKDIR=/scratch/chl23026/${USER_NETID}/yalmip_${SLURM_JOB_ID} ##change the second chl23026 to your NetID
+```
+# Copy files from HPC to laptop
+```
+rsync -avz --exclude-from='.gitignore' kak21001@hpc2.storrs.hpc.uconn.edu:~/fluidstability/latest_results/ ./results/
+```
+# Synchronize files from current directory to fluid stability directory 
+```
+rsync -avz --exclude-from='.gitignore' . kak21001@hpc2.storrs.hpc.uconn.edu:~/fluidstability/
+```

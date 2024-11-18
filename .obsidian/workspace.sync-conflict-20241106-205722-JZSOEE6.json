@@ -4,89 +4,124 @@
     "type": "split",
     "children": [
       {
-        "id": "16d9ab1d8df97726",
+        "id": "df638be6c9ae88cf",
         "type": "tabs",
         "children": [
           {
-            "id": "8cd03208f3f5dc44",
+            "id": "d063e9ba448222f6",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Projects/Active/Senior Design/Code diagram.canvas",
+                "viewState": {
+                  "x": -3.359685602779697,
+                  "y": -420.2842016160409,
+                  "zoom": -0.8139872061946442
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Code diagram"
+            }
+          },
+          {
+            "id": "dccbd269de493e84",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Notes/Control Systems/Control System Engineering.pdf",
-                "page": 112,
-                "left": 24,
-                "top": 132,
-                "zoom": 1.1534475845297425
+                "file": "Notes/Motion Planning/lectures/Lecture5-BugAlgorithms.pdf",
+                "page": 14,
+                "left": 725,
+                "top": -54,
+                "zoom": 0.7466911764705882
               },
               "icon": "lucide-file-text",
-              "title": "Control System Engineering"
-            }
-          }
-        ]
-      },
-      {
-        "id": "e887cccae277eb67",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "39ae59c0551c5c91",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/Active/Senior Design/Ongoing Log.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Ongoing Log"
+              "title": "Lecture5-BugAlgorithms"
             }
           },
           {
-            "id": "fdb93478612147ea",
+            "id": "fbf95514311b146e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Projects/Inactive/Robot arm/3-12-24.md",
-                "mode": "source",
-                "source": false
+                "file": "Notes/Motion Planning/lectures/Lecture5-BugAlgorithms.pdf",
+                "page": 15,
+                "left": 8,
+                "top": -9,
+                "zoom": 1.5981617647058826
               },
-              "icon": "lucide-file",
-              "title": "3-12-24"
+              "icon": "lucide-file-text",
+              "title": "Lecture5-BugAlgorithms"
             }
           },
           {
-            "id": "9068eda7e115aa3f",
+            "id": "acf53ed1aef42bcf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Projects/Active/SLAMBike/Logs/11-11-24 to 11-18-24.md",
-                "mode": "source",
-                "source": false
+                "file": "Notes/Embedded/AVR/presentations/Lecture 9.pdf",
+                "page": 1,
+                "left": -17,
+                "top": 544,
+                "zoom": 0.8671875
               },
-              "icon": "lucide-file",
-              "title": "11-11-24 to 11-18-24"
+              "icon": "lucide-file-text",
+              "title": "Lecture 9"
             }
           },
           {
-            "id": "076a9a2ed11f2569",
+            "id": "e3f76d647db17cb7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Notes/Control Systems/Linearization.md",
-                "mode": "source",
-                "source": false
+                "file": "Notes/Embedded/AVR/presentations/Lecture 12 - SPI.pdf",
+                "page": 14,
+                "left": -17,
+                "top": 544,
+                "zoom": 0.8671875
               },
-              "icon": "lucide-file",
-              "title": "Linearization"
+              "icon": "lucide-file-text",
+              "title": "Lecture 12 - SPI"
+            }
+          },
+          {
+            "id": "5f6c743cfc941d48",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Notes/Embedded/AVR/references/AVR128DB28 Datasheet.pdf",
+                "page": 422,
+                "left": -10,
+                "top": 776,
+                "zoom": 1.5428921568627452
+              },
+              "icon": "lucide-file-text",
+              "title": "AVR128DB28 Datasheet"
+            }
+          },
+          {
+            "id": "a1ce0f9b15d9be22",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Notes/Embedded/AVR/presentations/Lecture 13 - EEPROM & Watchdog Timer.pdf",
+                "page": 8,
+                "left": -4,
+                "top": 200,
+                "zoom": 0.8
+              },
+              "icon": "lucide-file-text",
+              "title": "Lecture 13 - EEPROM & Watchdog Timer"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -105,7 +140,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "insert",
+                "query": "canvas",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -138,12 +173,12 @@
               "title": "Files"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 339.5,
-    "collapsed": true
+    "width": 339.5
   },
   "right": {
     "id": "b5b9ba56968b115d",
@@ -239,65 +274,65 @@
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "canvas:Create new canvas": false,
       "switcher:Open quick switcher": false,
       "publish:Publish changes...": false,
       "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false
     }
   },
-  "active": "076a9a2ed11f2569",
+  "active": "a1ce0f9b15d9be22",
   "lastOpenFiles": [
-    "Notes/Control Systems/Control System Engineering.pdf",
-    "Notes/Control Systems/Linearization.md",
-    "Projects/Active/SLAMBike/Logs/11-11-24 to 11-18-24.md",
-    "Pasted image 20241116213246.png",
-    "Pasted image 20241116210608.png",
-    "Projects/Inactive/Robot arm/3-12-24.md",
-    "Projects/Active/Senior Design/Papers/Motion Planning/Cooperative Task Scheduling and Planning.pdf",
-    "Projects/Active/Senior Design/Ongoing Log.md",
+    "Notes/Embedded/AVR/EEPROM & Watchdog.md",
+    "Notes/Embedded/AVR/references/AVR128DB28 Datasheet.pdf",
+    "Notes/Embedded/AVR/presentations/Lecture 12 - SPI.pdf",
+    "Notes/Embedded/AVR/presentations/Lecture 9.pdf",
+    "Notes/Motion Planning/lectures/Lecture5-BugAlgorithms.pdf",
+    "Notes/Embedded/AVR/presentations/Lecture 13 - EEPROM & Watchdog Timer.pdf",
+    "Projects/Active/SLAMBike/Logs/11-5-24.md",
     "Projects/Active/Senior Design/Code diagram.canvas",
+    "Notes/Motion Planning/Exam Study Guide.md",
+    "Notes/Motion Planning/lectures/Lecture6-Potential field.pdf",
     "Projects/Active/Senior Design/Untitled.md",
-    "Projects/Active/Senior Design/Ongoing Log.sync-conflict-20241114-075949-JZSOEE6.md",
-    "Projects/Active/Senior Design/Ongoing Log.sync-conflict-20241113-203915-JZSOEE6.md",
-    "Projects/Active/Senior Design/Papers/highlights/Cooperative Task Scheduling and Planning.md",
-    "Notes/Control Systems/Chapter 9.md",
-    "Projects/Active/ece3162/Motion Planning of Multiple Manipulators with Specific tasks.md",
-    "Projects/Active/Senior Design/Papers/To Investigate.md",
-    "Autocycle_Circuits.png",
-    "Image.png",
-    "Projects/Active/SLAMBike/General Bike Info.md",
-    "Notes/Control Systems/Chapter 8 - Root Locus.md",
-    "Projects/Active/SLAMBike/Logs/11-13-24.md",
-    "Projects/Active/ece3162",
     "Notes/Motion Planning/lectures/Lecture12-Reactive replanning.pdf",
     "Notes/Motion Planning/lectures/Lecture11-RRTs.pdf",
-    "Notes/Motion Planning/lectures/Lecture10-PRM.pdf",
-    "Notes/Motion Planning/Exam Study Guide.md",
-    "Notes/Motion Planning/lectures/Lecture8-Astar search.pdf",
-    "Notes/Motion Planning/lectures/Lecture9-Astar variants.pdf",
-    "Notes/Motion Planning/lectures/Lecture7-Planning representation and Dijkstra’s algorithm.pdf",
-    "Projects/Active/SLAMBike/Logs/11-5-24.md",
-    "Pasted image 20241105145731.png",
     "Pasted image 20241105151528.png",
-    "Notes/Motion Planning/lectures/Lecture3-Cspace.pdf",
-    "Notes/Embedded/AVR/EEPROM & Watchdog.md",
     "Pasted image 20241105150050.png",
-    "Projects/Active/SLAMBike/Logs/10-24-24.md",
-    "Projects/Active/SLAMBike/Logs/11-6-24.md",
+    "Pasted image 20241105145731.png",
+    "Notes/Programming/Languages/C++/Why c++ sucks.md",
+    "Notes/Control Systems/Chapter 4.md",
+    "Notes/Control Systems/Control System Engineering.pdf",
     "Notes/Programming/Languages/CMake.md",
+    "Notes/Motion Planning/lectures/Lecture13-SMART.pdf",
     "Projects/Active/Senior Design/Research plan.canvas",
     "Projects/Active/Senior Design/simulation.png",
     "Projects/Inactive/Distributed Quantum Computing/Code flow.canvas",
     "Projects/Inactive/Robot arm/3-23-24.md",
     "Projects/Active/Senior Design/Papers/Untitled.md",
-    "Notes/Programming/Languages/C++/Why c++ sucks.md",
+    "Projects/Active/Senior Design/Ongoing Log.md",
     "Notes/Programming/Languages/C++/Iterators.md",
     "Notes/Programming/Languages/C++/Embedding C or C++ Functions.md",
+    "Notes/Programming/Languages/C++/3150 Final Exam Study Guide.md",
+    "Notes/Programming/Languages/C++/Classes.md",
+    "Notes/Programming/Languages/C++/Inheritance.md",
+    "Notes/Programming/Languages/C++/Multiple Inheritance.md",
+    "Notes/Programming/Languages/C++/Constructors.md",
+    "Notes/Programming/Languages/C++/Polymorphic Code.md",
+    "Notes/Programming/Languages/C++/Lambdas.md",
+    "Notes/Programming/Languages/C++/Inclusion.md",
+    "Notes/Programming/Languages/C++/Delegation.md",
+    "Notes/Programming/Languages/C++/Methods and Operators.md",
+    "Notes/Programming/Languages/C++/Pointers.md",
+    "Notes/Programming/Languages/C++/STL Containers.md",
+    "Notes/Programming/Languages/C++/Exceptions.md",
     "Pasted image 20241024152150.png",
     "Pasted image 20241017133113.png",
+    "Pasted image 20241016192457.png",
+    "Pasted image 20241016192654.png",
+    "Pasted image 20241016193534.png",
+    "Projects/Active/SLAMBike/Logs/images/time constant.png",
     "Projects/Inactive/Makerspace/Institute for Engineering Success.canvas",
     "Projects/Distributed Quantum Computing/Code flow.canvas",
     "Projects/Distributed Quantum Computing/Untitled.canvas",

@@ -132,7 +132,7 @@
     },
     {
       "id": "selection",
-      "visible": false
+      "visible": true
     },
     {
       "id": "write-file",

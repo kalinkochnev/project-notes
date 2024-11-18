@@ -1,3 +1,12 @@
+# 11/7/24
+## Todays plans
+~~- [ ] Process results from HPC~~ Did not get done
+
+## Recap
+- Bad news: all the jobs ended up crashing. The current theory is that HPC is not using the right version of Matlab. It was 2023b. Once I have validation from HPC that this works, I will update the configuration to use 2024a
+	- I checked and the code should still work on 2023b
+
+
 # 10/23/24
 
 ## Today's plans

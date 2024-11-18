@@ -1,3 +1,75 @@
+# 11/15/24
+- I started reading/taking notes on the Cooperative Task Scheduling and Planning paper and I think this may completely remove the need to decompose the part into separate sections for each robot. 
+	- Notify team of this update (specifically vihaan)
+	- This may also allow us to solve the problem of allowing robots to print at different heights relative to one another and not wait for completion
+[[Cooperative Task Scheduling and Planning]]
+[[Cooperative Task Scheduling and Planning.pdf]]
+# 11/12/24
+## Notes
+- The Marlin firmware has gcode documentation that is helpful: [[GCode]]
+	- https://marlinfw.org/docs/gcode/G000-G001.html
+
+- I need to make unit tests that check that the order of the gcode parameters does not affect the 
+- Also test that a task will always have a minimum of two points
+- Test for case where the last set of commands do not have any more `G1`s
+
+![[Pasted image 20241112115209.png]]
+- This diagram shows the individual tasks for a `FILL` and any Gcode command `G1/G0`
+- However for some reason if I only display for tasks that have `G1` it 
+- 
+
+# 11/11/24
+https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9636119
+## Notes
+- Cura inserts comments to indicate what kind of operation is being done
+	- A list can be found here: https://community.ultimaker.com/topic/31671-what-are-the-possible-type-comments-inserted-by-cura-into-the-gcode-output/
+## Recap
+I was in the process of implementing gcode processing for Cura, which takes advantage of several conventions. There are comments that indicate the type of operation being done by the gcode. Layer changes are also exclusively controlled by `Z` changes. There is no hopping by default. 
+
+
+## Next steps
+ - [ ] What does the `G0 F<number here>` command mean?
+ - [ ] Handle the different cases for task decomposition based on `MotionType`
+# 11/9/24
+## Plans for today
+- [x] Implement simple display of gcode and robot following it
+## Next time
+- [x] There is some kind of bug that is causing the robots to teleport. 
+	- This had to do with
+## Notes
+- Run code by 
+```
+cmake -B build
+cmake --build build
+```
+
+- [[Constructors#Move constructor]] if you only have a move constructor defined but not a copy constructor, vectors may not work. This is because when a vector is resized the elements must be copied over 
+
+- I really need to start testing this code... This seems like a good framework
+https://boost-ext.github.io/ut/
+
+- Moving explained [[Constructors#Move constructor]] 
+https://stackoverflow.com/questions/3413470/what-is-stdmove-and-when-should-it-be-used
+# 11/8/24
+## Plans for today
+- [ ] Read task ordering paper in depth
+- [ ] Rewrite code to be modular
+- [ ] Detect hops
+- [ ] Write update for Sean
+# 11/7/24
+## Recap
+I began implementing the diagram I specified here [[Code diagram.canvas|Code diagram]]. Unfortunately since I am on my laptop I couldn't do incremental testing when I made my changes. So this is functionally a brand new rewrite. 
+
+Todos:
+- [ ] Proper error handling of gcode parsing
+- [ ] Create function that determines the range of indices in the motion plan trajectory that correspond to a certain time step
+- [ ] Display extruder point and collision radius separately
+- [ ] Consider adding annotations to motion plan class to indicate which action is being performed
+- [ ] Need to detect hops to not confused that with different layers
+	- [ ] The parse gcode file should only generate the robot states, not attempt to try and parse it.
+	- [ ] Maybe create a new class for gcode segmentation?
+- [ ] In future optimization, draw all lines with a single draw call
+
 # 11/3/24
 [Task Constrained Motion Planning in Robot Joint Space](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4399305)
 [Novel Potential Guided Bidirectional RRT∗ With Direct Connection Strategy for Path Planning of Redundant Robot Manipulators in Joint Space](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10110311)
